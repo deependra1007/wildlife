@@ -1,0 +1,83 @@
+﻿@model IEnumerable<wildlife.Models.CertificateDetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="dafath_main_wrapp float-e-margins">
+
+    <div class="ibox_title">
+        <h5>CSF List</h5>
+
+        <a class="btn btn-primary add_nes" href="@Url.Action("Create", "CertificateDetails")">Add New</a>
+
+    </div>
+
+    <div class="pagination_and_search">
+
+
+        <div class="dataTables_length" id="">
+            <label><h5>Show</h5> <select name="" aria-controls="" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> <h5>entries</h5></label>
+        </div>
+
+        <div class="search_and_bts">
+
+            <div id="" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="DataTables_Table_0"></label></div>
+            <div class="html5buttons"><div class="dt-buttons btn-group"><a class="btn btn-default buttons-excel buttons-html5" tabindex="0" aria-controls="DataTables_Table_0"><span>Excel</span></a><a class="btn btn-default buttons-pdf buttons-html5" tabindex="0" aria-controls="DataTables_Table_0"><span>PDF</span></a><a class="btn btn-default buttons-print" tabindex="0" aria-controls="DataTables_Table_0"><span>Print</span></a></div></div>
+
+        </div>
+
+
+
+
+    </div>
+    <table class="table table-hover dataTables-example footable dataTable no-footer" id="DataTables_Table_0" aria-describedby="DataTables_Table_0_info" role="grid">
+        <thead>
+            <tr role="row">
+                <th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="#: activate to sort column descending" style="width: 72px; font-weight: 700;">#</th>
+                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Certificate No.: activate to sort column ascending" style="width: 276px; font-weight: 700;">Certificate No.</th>
+                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Date Of Generation: activate to sort column ascending" style="width: 351px; font-weight: 700;">Date Of Generation</th>
+                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Form Type: activate to sort column ascending" style="width: 214px;font-weight: 700;">Form Type</th>
+                <th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Action: activate to sort column ascending" style="width: 252px;font-weight: 700;">Action</th>
+            </tr>
+        </thead> 
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr role="row" class="odd">
+                <td class="sorting_1">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CertificateNo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Recorddate)
+                </td> 
+                <td>
+                    &nbsp;
+                </td> 
+                <td>
+                    <a class="btn btn-warning btn-sm" target="_blank" href="@Url.Action("View", "CertificateDetails",new { id = @item.Id } )"><span class="material-icons">print</span></a>
+                    <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@item.Id">
+                        <span class="material-icons">border_color</span>
+                    </a>
+                    <a class="btn btn-warning btn-sm" asp-action="Delete" asp-route-id="@item.Id"><span class="material-icons">delete_outline</span></a>
+
+                    @*<button id="29" type="button" class="btn btn-warning delete btn-sm delete_class"><span class="material-icons">delete_outline</span></button>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+
+ 

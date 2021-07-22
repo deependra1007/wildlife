@@ -1,0 +1,835 @@
+﻿@model wildlife.Models.CertificateDetail
+
+@{
+    ViewData["Title"] = "View";
+}  
+
+<div class="container">
+    <div style="width:800px; margin: auto;">
+        <div style="width:255.666px;float: left;">
+            <p><br></p>
+        </div>
+        <div style="width:230.666px;float: left;">
+            <p style="text-align: center;font-size: 11px;margin-bottom: 0px;">
+                <img src="/images/lion_emblem.png" alt="lion-emblem" style="width:30px;"><br>
+                GOVERNMENT OF INDIA
+            </p>
+        </div>
+        <div style="width:297.666px;float: left;margin-top: 10px;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="border:1px solid black;vertical-align:top;">
+                            <table style="width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div style="padding:2px 2px 2px 2px;">
+                                                <p style="margin-top:0px;margin-right:0px;margin-bottom:.0001px;margin-left:0px;line-height:normal;font-size:14px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:left;"><span style="font-size:12px;">PERMIT/ CERTIFICATE No <u><b> @Model.CertificateNo </b></u> IN @Model.Id.ToString("00000")/WL</span></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="clear"></div>
+
+        <p style="width:136px;float:left;"><img src="/images/cites.png" alt="cities_logo" style="width:100px;"></p>
+    </div>
+    <table style="width:177px;float: left;">
+        <tbody>
+            <tr>
+                <td bgcolor="white" style="vertical-align:top;background:#fff;">
+                    &nbsp;
+                    <table style="width: 100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div style="padding:3.6px 7.2px 3.6px 7.2px;">
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            CONVENTION ON &nbsp;
+                                        </p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">INTERNATIONAL TRADE IN</p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            ENDANGERED SPECIES OF
+                                        </p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            WILD FAUNA AND FLORA
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table style="width:165px;float: left;">
+        <tbody>
+            <tr>
+                <td style="vertical-align:top;">
+                    &nbsp;<table style="width: 100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div style="padding:3.6px 7.2px 3.6px 7.2px;">
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            &nbsp; &nbsp; &nbsp; &nbsp;
+                                            <img src="/images/box1.png" width="17px;">  EXPORT&nbsp;
+                                        </p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            &nbsp; &nbsp; &nbsp; &nbsp; <img src="/images/box1.png" width="17px;">  RE-EXPORT
+                                        </p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            &nbsp; &nbsp; &nbsp; &nbsp; <img src="/images/box1.png" width="17px;">  IMPORT
+                                        </p>
+                                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                                            &nbsp; &nbsp; &nbsp; &nbsp; <img src="/images/box1.png" width="17px;">  OTHER
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>&nbsp;&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <table  style="float:left;border-collapse:collapse;border:none;margin-left:0px;margin-right:0px;width:38%;
+        margin-top: 28px;">
+        <tbody>
+            <tr>
+                <td style="width:100%;border: 1px solid #000;padding:10px 10px;vertical-align: top;">
+                    <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";'>2. Valid until:
+                       <span style="padding-right: 10px;"> <b></b></p></span>
+                    <!-- <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";'></p> --
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+    <table style="width:300px;float: left;margin-top: 40px;">
+        <tbody>
+            <tr>
+                <td style="width:100%;border: 1pt solid #000;padding:2px;height:39px;vertical-align: top;">
+                    <table style="width: 100%">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div style="padding:4.35px 7.95px 4.35px 7.95px;">
+                                        <p style="margin:0px;margin-bottom:0px;font-size:13px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">2. Valid until</p>
+                                        @{
+                                            string Validdate = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                                            if (@Model.Validdate == null)
+                                                Validdate = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                                            else
+                                                Validdate = Convert.ToDateTime(@Model.Validdate).ToString("dd-MMM-yyyy");
+                                        }
+                                         
+                                        <p style="margin:0px;margin-bottom:0px;font-size:13px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;"><b>@Validdate</b></p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table style="float:left;border-collapse:collapse;border:none;margin-left:0px;margin-right:0px;width:38%;
+    margin-top:0px;">
+        <tbody>
+            <tr>
+                <td style="width:100%;padding:10px 10px;vertical-align: top;">
+                    <p style="margin:0px;margin-bottom:0px;font-size:14px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                        QR Code:
+                        <!--  -->
+                        <img style="width:100px;height:50px;" src="https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl=PER00354437&amp;choe=UTF-8">
+                        <!-- <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";'></p> -->
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-indent:5px">&nbsp; &nbsp;</p>
+    <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-indent:5px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+    <div class="table-data1" style="width: 800px;margin: auto;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td colspan="4" style="width: 235px;border: 1pt solid #000;padding: 2px;height:65px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:-20px;text-indent:20px;">
+                            <span style="font-size:12px;">3. Importer (name and address)</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;"><b>@Model.ImporterAddress</b></span>
+                        </p>
+                    </td>
+                    <td colspan="5" rowspan="3" style="width: 325px;border-top: 1px solid #000;border-right: 1px solid #000;border-bottom: 1px solid #000;border-image: initial;border-left: none;padding:2px;height:5px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;">4. Exporter/re-exporter (name, address and country):<br><b>@Model.ExporterAddress</b></span>
+                        </p>
+
+
+                        <div style="width: 100%;float: left;padding-top: 6px;">
+
+                            <p style="margin: 0px;margin-bottom: 0px;font-size: 12px;font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;width: 60%;float: left;padding-top: 48px;">
+                                <span style="font-size:12px;height:50px;display: inline-block;">&nbsp; </span> <br>
+                                <span style="font-size:12px;">4a. Port of Export: <b>@Model.ExportPort</b> </span>
+                            </p>
+                            <p style="margin: 0px;margin-bottom: 0px;font-size: 12px;font-family: &quot;Calibri&quot;,&quot;sans-serif&quot;;width: 40%;float: left;
+                 padding-top: 48px;">
+                                <span style="font-size:12px;height: 50px;display:inline-block;">
+                                </span> <br>
+                                <span style="font-size:12px;">Signature of the applicant </span>
+                            </p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4" style="width:235px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image:initial;border-top:none;padding:0px;height: 25px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;padding: 2px;">3a. Country of import/Destination</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;padding: 2px;"><b>@Model.ImporterCountry</b></span>
+                        </p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4" rowspan="2" style="width:235px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding:2px;height: 14px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:-20px;text-indent:20px;"><span style="font-size:12px;">5. Special conditions</span></p>
+
+                        <p style="margin-top:1px;margin-right:0px;margin-bottom:7px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;"><b>@Model.SpecialCondition</b></p>
+
+                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:  justify;    padding-top: 30px;position: relative;"><span style="font-size:12px;">For live animals this permit or certificate is only valid if the transport conditions conform to the CITES Guidelines for transport or, in the case of air transport to the IATA Live Animals Regulations</span></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="5" rowspan="2" style="width:325px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:25px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:-20px;text-indent:19px;">
+                            <span style="font-size:12px;">6.Name address,national seal/stamp and country of Management-Authority</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:20px;width:115px;float: left;margin-top:15px;">
+                            <img src="/images/govtlogo.png" width="80px;">
+                        </p>
+
+
+
+                        <div style="padding:7px 11px 7px 11px;">
+
+                            <p style="margin:0px;margin-bottom:0px;font-size:14px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:-19px;text-indent:19px;">
+                                <span style="font-size:12px;"></span>
+                            </p>
+                            <!--  <p style='margin:0px;margin-bottom:0px;font-size:14px;font-family:"Calibri","sans-serif";margin-left:-19px;text-indent:19px;'>
+                                 <span style="font-size:12px;">Director,</span>
+                             </p>
+                             <p style='margin:0px;margin-bottom:0px;font-size:14px;font-family:"Calibri","sans-serif";margin-left:-19px;text-indent:19px;'>
+                                 <span style="font-size:12px;">Wildlife Crime Control Bureau,</span>
+                             </p>
+                             <p style='margin:0px;margin-bottom:0px;font-size:14px;font-family:"Calibri","sans-serif";margin-left:-19px;text-indent:19px;'>
+                                 <span style="font-size:12px;">Ministry of Environment, Forest& Climate Change,</span>
+                             </p>
+                             <p style='margin:0px;margin-bottom:0px;font-size:14px;font-family:"Calibri","sans-serif";margin-left:-19px;text-indent:19px;'>
+                                 <span style="font-size:12px;">Paryavaran Bhavan, CGO Complex,</span>
+                             </p>
+                             <p style='margin:0px;margin-bottom:0px;font-size:14px;font-family:"Calibri","sans-serif";margin-left:-19px;text-indent:19px;'>
+                                 <span style="font-size:12px;">Lodhi Road New Delhi, India</span>
+                             </p> -->
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="width: 235px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding: 1px;height: 10px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;padding-right: 4px;">5a. Purpose of the transaction. <b>@Model.Purpose</b></span> <br />
+
+                            <span style="font-size:12px;">5b. Security stamp no. <b>@Model.StampNo</b></span>
+                        </p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td colspan="4" style="width: 235px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding:1px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;"><i>7./8. Scientific name (genus and species) <br>and common name of animal or plant</i></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>
+                        </p>
+                    </td>
+                    <td colspan="2" style="width:100px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">9. Description of specimens,including identifying, marks or numbers (age/sex if live)</span>
+                        </p>
+
+
+                    </td>
+
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;"><span style="font-size:12px;">10. Appendix no. and source (see reverse)</span></p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;"><span style="font-size:12px;">11. Quantity (including unit)</span></p>
+
+                    </td>
+                    <td style="width:108px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11a.Total exported/Quota</span>
+                        </p>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="width: 26px;border-right: 1px solid #000;border-bottom:1px solid #000;border-left:1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:center;">
+                            <span style="font-size:12px;">A</span>
+                        </p>
+
+                    </td>
+                    <td colspan="3" style="width: 209px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;"><i>7./8. <b>@Model.ScientificA</b></i></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td colspan="2" style="width: 100px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">9.<b>@Model.SpecimenA</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">10.<b>@Model.AppendixA</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">
+                                10.<b>@Model.TradeA</b>
+                            </span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.QuantityA</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.UnitA</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:108px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11a.<b>@Model.TotalExportedA</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td style="width: 110px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12 Country of origin* <br><b>@Model.OriginA</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 42px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Permit no.<br> <b>@Model.PermitNoA</b></span>
+                        </p>
+                    </td>
+                    @{
+                        string DateA = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateA == null)
+                            DateA = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateA = Convert.ToDateTime(@Model.DateA).ToString("dd-MMM-yyyy");
+                    }
+                    <td style="width:57px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date: <br><b>@DateA</b></span>
+                        </p>
+                    </td>
+
+
+                    <td colspan="3" style="width:3px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="width:100%;float:left;margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;width:51%;float: left;padding-right: 20px;">12a. Country of last Re-export  <br><b>@Model.ReExportA</b></span>
+                            <span style="font-size:12px;width:40%;float: left;">Certificate no.<br><b>@Model.CertificateNoA</b></span>
+                        </p>
+                        <!--  <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+
+        </p> -->
+
+                    </td>
+                    @{
+                        string DateaA = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateaA == null)
+                            DateaA = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateaA = Convert.ToDateTime(@Model.DateaA).ToString("dd-MMM-yyyy");
+                    }
+                    <td style="width: 64px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date <br><b>@DateaA</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 81px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12b. No of the Operation* <br><b>@Model.NoOfOperationA</b></span>
+                        </p>
+                        <!-- <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+            <span style="font-size:12px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; acquisition** <b></b></span>
+        </p> -->
+                    </td>
+
+                </tr>
+                <tr>
+                    <td rowspan="2" style="width: 26px;border-right: 1px solid #000;border-bottom:1px solid #000;border-left:1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:center;">
+                            <span style="font-size:12px;">B</span>
+                        </p>
+
+                    </td>
+                    <td colspan="3" style="width: 209px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;"><i>7./8. <b>@Model.ScientificB</b></i></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td colspan="2" style="width: 100px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">9.<b>@Model.SpecimenB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">10.<b>@Model.AppendixB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">10.<b>@Model.TradeB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.QuantityB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.UnitB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:108px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11a.<b>@Model.TotalExportedB</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td style="width: 78px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12 Country of origin*<br> <b>@Model.OriginB</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 42px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Permit no. <br><b>@Model.PermitNoB</b></span>
+                        </p>
+                    </td>
+                    @{
+                        string DateB = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateB == null)
+                            DateB = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateB = Convert.ToDateTime(@Model.DateB).ToString("dd-MMM-yyyy");
+                    }
+
+                    <td style="width:89px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date:<br> <b>@DateB</b></span>
+                        </p>
+                    </td>
+
+
+                    <td colspan="3" style="width:3px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="width:100%;float:left;margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;width:51%;float: left;padding-right: 20px;">12a. Country of last Re-export.  <br><b>@Model.ReExportB</b></span>
+                            <span style="font-size:12px;width:40%;float: left;">Certificate no.<br><b>@Model.CertificateNoB</b></span>
+                        </p>
+                        <!--  <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+
+        </p> -->
+
+                    </td>
+                    @{
+                        string DateaB = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateaB == null)
+                            DateaB = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateaB = Convert.ToDateTime(@Model.DateaB).ToString("dd-MMM-yyyy");
+                    }
+                    <td style="width: 64px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date <br> <b>@DateaB</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 81px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12b. No of the Operation* <br> <b>@Model.NoOfOperationB</b></span>
+                        </p>
+                        <!-- <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+            <span style="font-size:12px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; acquisition** <b></b></span>
+        </p> -->
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td rowspan="2" style="width: 26px;border-right: 1px solid #000;border-bottom:1px solid #000;border-left:1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:19px;text-align:center;text-indent:19px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:center;">
+                            <span style="font-size:12px;">C</span>
+                        </p>
+
+                    </td>
+                    <td colspan="3" style="width: 209px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;"><i>7./8. <b>@Model.ScientificC</b></i></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td colspan="2" style="width: 100px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">9.<b>@Model.SpecimenC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">10.<b>@Model.AppendixC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">10.<b>@Model.TradeC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width:90px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.QuantityC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11.<b>@Model.UnitC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+
+                    </td>
+                    <td style="width:108px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;">
+                            <span style="font-size:12px;">11a.<b>@Model.TotalExportedC</b></span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+
+                </tr>
+                <tr>
+                    <td style="width: 78px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12 Country of origin*  <br> <b>@Model.OriginC</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 42px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Permit no.  <br> <b>@Model.PermitNoC</b></span>
+                        </p>
+                    </td>
+                    @{
+                        string DateC = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateC == null)
+                            DateC = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateC = Convert.ToDateTime(@Model.DateC).ToString("dd-MMM-yyyy");
+                    }
+                    <td style="width:89px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date: <br>  <b>@DateC</b></span>
+                        </p>
+                    </td>
+
+                    <td colspan="3" style="width:3px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="width:100%;float:left;margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;width:51%;float: left;padding-right: 20px;">12a. Country of last Re-export.  <br><b>@Model.ReExportC</b></span>
+                            <span style="font-size:12px;width:40%;float: left;">Certificate no.<br><b>@Model.CertificateNoC</b></span>
+                        </p>
+                        <!--  <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+
+        </p> -->
+
+                    </td>
+                    @{
+                        string DateaC = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        if (@Model.DateaC == null)
+                            DateaC = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                        else
+                            DateaC = Convert.ToDateTime(@Model.DateaC).ToString("dd-MMM-yyyy");
+                    }
+                    <td style="width: 64px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;height: 7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Date <br> <b>@DateaC</b></span>
+                        </p>
+                    </td>
+                    <td style="width: 81px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;height:7px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">12b. No of the Operation* <br> <b>@Model.NoOfOperationC</b></span>
+                        </p>
+                        <!-- <p style='margin:0px;margin-bottom:0px;font-size:12px;font-family:"Calibri","sans-serif";margin-left:0px;text-indent:0px;'>
+            <span style="font-size:12px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; acquisition** <b></b></span>
+        </p> -->
+                    </td>
+
+                </tr>
+
+
+
+                <tr>
+                    <td colspan="9" style="width: 559px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <div style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <ul style="margin-bottom:0px;margin-left:0px;margin-top:0px;padding: 0px 0px 0px 0px;">
+                                <li style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;list-style: none;">
+                                    <span style="font-size:12px;">*</span>
+                                    <span style="font-size:12px;padding-left:6px;">Country in which the specimens were taken from the wild, bred in captivity or artificially propagated (only in case of re-export)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;">** Only for specimens of Appendix-I species bred in captivity or artificially propagated for commercial purposes</span>
+                        </p>
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:12px;">*** For Pre-Convention specimens</span>
+                        </p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="9" style="width: 559px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left:
+            1px solid #000;border-image: initial;border-top: none;padding: 2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;padding-right:10px;">13. This permit/certificate is issued by: </span>
+                            <span style="font-size:12px;"><b>@Model.IssuedBy</b></span>
+                        </p>
+
+                        <span style="font-size:12px;">&nbsp;</span>
+                        @{
+                            string IssueDate = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                            if (@Model.IssueDate == null)
+                                IssueDate = System.DateTime.Now.ToString("dd-MMM-yyyy");
+                            else
+                                IssueDate = Convert.ToDateTime(@Model.IssueDate).ToString("dd-MMM-yyyy");
+                        }
+                        <p style="width:100%;float:left;margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                        </p><p style="font-size:12px;padding-right:0px;width:33.333%;float: left;margin-bottom: 0px;">
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">&nbsp;</span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">Place: <b>@Model.IssuedPlace</b></span>
+                        </p>
+                        <p style="font-size:12px;padding-right:0px;width:33.333%;float: left;margin-bottom: 0px;">
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';"></span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">Date: <b>@IssueDate</b></span>
+                        </p>
+                        <p style="font-size:12px;padding-right: 0px;width:33.333%;float: left;margin-bottom: 0px;">
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">&nbsp;</span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';"> Security stamp, signature and official seal</span>
+                        </p>
+                        <p></p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="9" style="width: 559px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left:1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;padding-right: 120px;">14. Export endorsement:</span>
+                            <span style="font-size:12px;">15. Bill of Landing/Air waybill number:</span>
+                        </p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="width: 26px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding: 2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Block </span>
+                        </p>
+                    </td>
+                    <td style="width: 77px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">Quantity</span>
+                        </p>
+                    </td>
+                    <td colspan="7" rowspan="4" style="width: 455px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:30px;padding-bottom:0px;vertical-align: top;">
+                        <p style="margin:0px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:12px;">&nbsp;</span>
+                        </p>
+                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:  normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            &nbsp;
+
+                        </p>
+                        <p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">&nbsp;</p>
+                        <p style="width:100%;float:left;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;line-height:normal;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                        </p><p style="font-size:12px;width:33.333%;float: left;margin-top:0px;margin-bottom:0px;">
+                                <span style="font-size:12px;font-family:'Calibri','sans-serif';">@Model.ExportPort</span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">Port of export</span>
+                        </p>
+                        <p style="font-size:12px;width:33.333%;float: left;margin-top:0px;margin-bottom:0px;">
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">@IssueDate</span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">Date</span>
+                        </p>
+                        <p style="font-size:12px;width:33.333%;float: left;margin-top:0px;margin-bottom:0px;">
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">&nbsp;</span><br>
+                            <span style="font-size:12px;font-family:'Calibri','sans-serif';">Signature Official stamp and title </span>
+                        </p>
+                        <p></p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="width: 26px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding:2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:11px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width: 77px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:11px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td style="width: 26px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding: 2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:11px;"><b>&nbsp;</b></span><b>
+                                <span style="font-size:11px;"></span>
+                            </b>
+                        </p><b>
+                        </b>
+                    </td>
+                    <td style="width: 77px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding: 2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:11px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="width: 26px;border-right: 1px solid #000;border-bottom: 1px solid #000;border-left: 1px solid #000;border-image: initial;border-top: none;padding: 2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;">
+                            <span style="font-size:11px;">&nbsp;</span>
+                        </p>
+                    </td>
+                    <td style="width: 77px;border-top: none;border-left: none;border-bottom: 1px solid #000;border-right: 1px solid #000;padding:2px;vertical-align: top;">
+                        <p style="margin:10px;margin-bottom:0px;font-size:12px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;margin-left:0px;text-indent:0px;">
+                            <span style="font-size:11px;">&nbsp;</span>
+                        </p>
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+        <div style="width:297.666px;float: right;margin-top: 10px;">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="border:1px solid black;vertical-align:top;">
+                            <table style="width: 100%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div style="padding:2px 2px 2px 2px;">
+                                                <p style="margin-top:0px;margin-right:0px;margin-bottom:.0001px;margin-left:0px;line-height:normal;font-size:14px;font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;;text-align:left;"><span style="font-size:12px;">PERMIT/ CERTIFICATE No <u><b>@Model.CertificateNo</b></u> IN @Model.Id.ToString("00000")/WL</span></p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+ 
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,120 @@
+﻿@model wildlife.Models.CertificateDetail
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CertificateDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CertificateNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CertificateNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Validdate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Validdate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImporterAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImporterAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImporterCountry)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ImporterCountry)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExporterAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ExporterAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ExportPort)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ExportPort)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SpecialCondition)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SpecialCondition)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Purpose)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Purpose)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StampNo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StampNo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StampName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StampName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StampAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StampAddress)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IssuedBy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IssuedBy)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IssuedPlace)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IssuedPlace)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IssueDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IssueDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Recorddate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Recorddate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ip)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ip)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

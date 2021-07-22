@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - wildlife</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="/js/jquery.min.js"></script>
+
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>-->
+    <!-- ******************** -->
+
+    <script src="/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!--=============-->
+    <link href="/css/custom.css" rel="stylesheet" type="text/css" />
+    <link href="/css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <!--==================-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet" />
+
+
+</head>
+<body>
+    <header>
+
+        <div class="border_bottom_header">
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- <div class="navbar-header">
+                <a class="navbar-minimalize minimalize-styl-2 btn btn-primary" href="#"><i class="fa fa-bars"></i> </a>
+            </div> -->
+
+                <div class="navbar-header" style="margin-top: 10px;margin-right: 10px;">
+                    <a class="btn btn-primary" href="@Url.Action("Index", "CertificateDetails")"><i class="fa fa-list" aria-hidden="true"></i>  Form List</a>
+                </div>
+                <div class="btn-group" style="margin-top: 10px;margin-right: 10px;">
+                    <button type="button" class="btn btn-danger">Import</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li> <a href="http://52.200.8.36/wildlife/csf/import_fauna_data">Import Fauna</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://52.200.8.36/wildlife/csf/import_fauna_data">Import Flora</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" style="margin-top: 10px;">
+                    <button type="button" class="btn btn-warning">Export</button>
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="@Url.Action("ReexportFaunadownload", "CertificateDetails")">  Re-export Fauna</a></li>
+                        <li class="divider"></li>
+                        <li><a href="@Url.Action("ReexportFaunadownload", "CertificateDetails")"> Export Live Plant</a></li>
+                        <li class="divider"></li>
+                        <li><a href="@Url.Action("ReexportFaunadownload", "CertificateDetails")"> Export Plant Portion</a></li>
+                        <li class="divider"></li>
+                        <li><a href="@Url.Action("ReexportFaunadownload", "CertificateDetails")"> Re-export Flora</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="navbar-header" style="margin-top: 10px;margin-right: 10px;">
+                    <a class="btn btn-success" href="@Url.Action("Create", "CertificateDetails")"><i class="fa fa-plus" aria-hidden="true"></i> Add New</a>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="m-r-sm text-muted welcome-message">Welcome to Dafath</span>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                            <span class="material-icons">notifications</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            TEST
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="right-sidebar-toggle" href="">
+                            <span class="material-icons">person</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Identity/Account/Login" onclick="return confirm('Do you want to Log Out?')">
+                            <button class="btn btn-primary btn-sm"><i class="fa fa-sign-out"></i> Log out</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+     
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

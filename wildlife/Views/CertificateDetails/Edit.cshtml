@@ -1,0 +1,486 @@
+﻿@model wildlife.Models.CertificateDetail
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+
+<div class="dafath_main_wrapp float-e-margins">
+
+    <div class="ibox-title">
+        <a href="@Url.Action("Index", "CertificateDetails")" class="btn pull-right btn-primary nback">Back</a>
+        <ul class="nav nav-tabs" id="mytabs">
+            <li class="active"><a data-toggle="tab" href="#first" aria-expanded="true"> Step1</a></li>
+            <li class=""><a data-toggle="tab" href="#second" aria-expanded="false"> Step2</a></li>
+        </ul>
+    </div>
+    <form asp-action="Edit" class="form-horizontal" method="post" enctype="multipart/form-data" id="formProfile">
+        <div class="tab-content">
+            <div id="first" class="tab-pane active">
+                <div class="panel-body">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">PERMIT/ CERTIFICATE No</label>
+                                    <div class="col-sm-8">
+                                        <input asp-for="CertificateNo" class="form-control" type="text" />
+                                        <span asp-validation-for="CertificateNo" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">1. Type</label>
+                                    <div class="col-sm-8">
+                                        @{ string IsExport = Model.IsExport ? "checked" : "";
+                                            string IsReExport = Model.IsReExport ? "checked" : "";
+                                            string IsImport = Model.IsImport ? "checked" : "";
+                                            string IsOther = Model.IsOther ? "checked" : "";
+                                            }
+                                        <label class="checkbox-inline"><input type="checkbox" asp-for="IsExport" name="IsExport" value="@Model.IsExport"   />EXPORT</label>
+                                        <label class="checkbox-inline"><input type="checkbox" asp-for="IsReExport" name="IsReExport" value="@Model.IsReExport"   />RE-EXPORT</label>
+
+                                        <label class="checkbox-inline"><input type="checkbox" asp-for="IsImport" name="IsImport" value="@Model.IsImport" />IMPORT</label>
+
+                                        <label class="checkbox-inline"><input type="checkbox" asp-for="IsOther" name="IsOther" value="@Model.IsOther" />OTHER</label>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">2. Valid Until</label>
+                                    <div class="col-sm-8">
+                                        <input asp-for="Validdate" type="date" class="form-control" />
+                                        <span asp-validation-for="Validdate" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">3. Importer (name and address)</label>
+                                    <div class="col-sm-8">
+                                        <textarea asp-for="ImporterAddress" class="form-control"></textarea>
+                                        <span asp-validation-for="ImporterAddress" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">3a. Country of import/Destination</label>
+                                    <div class="col-sm-8">
+                                        <input asp-for="ImporterCountry" class="form-control" type="text" />
+                                        <span asp-validation-for="ImporterCountry" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">4. Exporter/re-exporter (name, address and country)</label>
+                                    <div class="col-sm-8">
+                                        <textarea asp-for="ExporterAddress" class="form-control"></textarea>
+                                        <span asp-validation-for="ExporterAddress" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">4a. Port of Export </label>
+                                    <div class="col-sm-8">
+                                        <input asp-for="ExportPort" class="form-control" type="text" />
+                                        <span asp-validation-for="ExportPort" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">5. Special conditions</label>
+                                    <div class="col-sm-8">
+                                        <textarea asp-for="SpecialCondition" class="form-control"></textarea>
+                                        <span asp-validation-for="SpecialCondition" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">5a. Purpose of the transaction </label>
+                                    <div class="col-sm-8">
+                                        <textarea asp-for="Purpose" class="form-control"></textarea>
+                                        <span asp-validation-for="Purpose" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">5b. Security stamp no</label>
+                                    <div class="col-sm-8">
+                                        <input asp-for="StampNo" class="form-control" type="text" />
+                                        <span asp-validation-for="StampNo" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">6. Name address, national seal/stamp and country of Management-Authority</label>
+                                    <div class="col-sm-8">
+                                        <textarea asp-for="StampName" class="form-control"></textarea>
+                                        <span asp-validation-for="StampName" class="text-danger"></span>
+
+
+                                    </div>
+                                </div>
+                                <!-- <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-3 control-label">QR Code</label>
+                    <div class="col-sm-8">
+                        <input  type="file" class="form-control" id="qr_code" name="qr_code" placeholder="" style="display: block;">
+                    </div>
+                </div> -->
+
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-1 control-label"></label>
+                                    <div class="col-sm-8">
+                                        <div class="box-footer">
+                                            <button type="button" class="btn btn-danger" id="nextTab" style="width: 120px;">Next <i class="fa fa-arrow-circle-o-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                    <div class="form-group" style="display:none;">
+                        <label asp-for="StampAddress" class="control-label"></label>
+                        <input asp-for="StampAddress" class="form-control" />
+                        <span asp-validation-for="StampAddress" class="text-danger"></span>
+                    </div>
+
+
+
+                    <div class="form-group" style="display:none;">
+                        <label asp-for="Recorddate" class="control-label"></label>
+                        <input asp-for="Recorddate" type="date" class="form-control" />
+                        <span asp-validation-for="Recorddate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="display:none;">
+                        <label asp-for="UserId" class="control-label"></label>
+                        <input asp-for="UserId" class="form-control" />
+                        <span asp-validation-for="UserId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="display:none;">
+                        <label asp-for="Ip" class="control-label"></label>
+                        <input asp-for="Ip" class="form-control" />
+                        <span asp-validation-for="Ip" class="text-danger"></span>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="second" class="tab-pane">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="box-body">
+                                <div class="box-body table-responsive no-padding">
+                                    <table class="table table-hover table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>7./8. Scientific name (genus and species)and common name of animal or plant</th>
+                                                <th>9. Description of specimens,including identifying, marks or numbers (age/sex if live)</th>
+                                                <th>10. Appendix no. and source (see reverse)</th>
+                                                <th>11. Quantity (including unit)</th>
+                                                <th>11a.Total exported/Quota</th>
+                                            </tr>
+                                            <tr>
+                                                <th>A</th>
+                                                <th>
+                                                    <textarea asp-for="ScientificA" class="form-control"></textarea>
+                                                    <span asp-validation-for="ScientificA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <textarea asp-for="SpecimenA" class="form-control"></textarea>
+                                                    <span asp-validation-for="SpecimenA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="AppendixA" class="form-control" />
+                                                    <span asp-validation-for="AppendixA" class="text-danger"></span><br />
+
+                                                    <input asp-for="TradeA" class="form-control" />
+                                                    <span asp-validation-for="TradeA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="QuantityA" class="form-control" />
+                                                    <span asp-validation-for="QuantityA" class="text-danger"></span><br />
+
+                                                    <input asp-for="UnitA" class="form-control" />
+                                                    <span asp-validation-for="UnitA" class="text-danger"></span> 
+                                                </th>
+                                                <th>
+                                                    <input asp-for="TotalExportedA" class="form-control" />
+                                                    <span asp-validation-for="TotalExportedA" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>B</th>
+                                                <th>
+                                                    <textarea asp-for="ScientificB" class="form-control"></textarea>
+                                                    <span asp-validation-for="ScientificB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <textarea asp-for="SpecimenB" class="form-control"></textarea>
+                                                    <span asp-validation-for="SpecimenB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="AppendixB" class="form-control" />
+                                                    <span asp-validation-for="AppendixB" class="text-danger"></span><br />
+
+                                                    <input asp-for="TradeB" class="form-control" />
+                                                    <span asp-validation-for="TradeB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="QuantityB" class="form-control" />
+                                                    <span asp-validation-for="QuantityB" class="text-danger"></span><br />
+
+                                                    <input asp-for="UnitB" class="form-control" />
+                                                    <span asp-validation-for="UnitB" class="text-danger"></span> 
+                                                </th>
+                                                <th>
+                                                    <input asp-for="TotalExportedB" class="form-control" />
+                                                    <span asp-validation-for="TotalExportedB" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>C</th>
+                                                <th>
+                                                    <textarea asp-for="ScientificC" class="form-control"></textarea>
+                                                    <span asp-validation-for="ScientificC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <textarea asp-for="SpecimenC" class="form-control"></textarea>
+                                                    <span asp-validation-for="SpecimenC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="AppendixC" class="form-control" />
+                                                    <span asp-validation-for="AppendixC" class="text-danger"></span><br />
+
+                                                    <input asp-for="TradeC" class="form-control" />
+                                                    <span asp-validation-for="TradeC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="QuantityC" class="form-control" />
+                                                    <span asp-validation-for="QuantityC" class="text-danger"></span><br />
+
+                                                    <input asp-for="UnitC" class="form-control" />
+                                                    <span asp-validation-for="UnitC" class="text-danger"></span> 
+                                                </th>
+                                                <th>
+                                                    <input asp-for="TotalExportedC" class="form-control" />
+                                                    <span asp-validation-for="TotalExportedC" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="box-body table-responsive no-padding">
+                                    <table class="table table-hover table-bordered">
+                                        <tbody>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>12 Country of origin*</th>
+                                                <th>Permit no.</th>
+                                                <th>Date.</th>
+                                                <th>12a. Country of last Re-Export</th>
+                                                <th>Certificate no.</th>
+                                                <th>Date</th>
+                                                <th>12b. No of the Operation** Or date of acquisition**</th>
+                                            </tr>
+                                            <tr>
+                                                <th>A</th>
+                                                <th>
+                                                    <input asp-for="OriginA" class="form-control" />
+                                                    <span asp-validation-for="OriginA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="PermitNoA" class="form-control" />
+                                                    <span asp-validation-for="PermitNoA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateA" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="ReExportA" class="form-control" />
+                                                    <span asp-validation-for="ReExportA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="CertificateNoA" class="form-control" />
+                                                    <span asp-validation-for="CertificateNoA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateaA" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateaA" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="NoOfOperationA" class="form-control" />
+                                                    <span asp-validation-for="NoOfOperationA" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>B</th>
+                                                <th>
+                                                    <input asp-for="OriginB" class="form-control" />
+                                                    <span asp-validation-for="OriginB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="PermitNoB" class="form-control" />
+                                                    <span asp-validation-for="PermitNoB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateB" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="ReExportB" class="form-control" />
+                                                    <span asp-validation-for="ReExportB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="CertificateNoB" class="form-control" />
+                                                    <span asp-validation-for="CertificateNoB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateaB" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateaB" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="NoOfOperationB" class="form-control" />
+                                                    <span asp-validation-for="NoOfOperationB" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                            <tr>
+                                                <th>C</th>
+                                                <th>
+                                                    <input asp-for="OriginC" class="form-control" />
+                                                    <span asp-validation-for="OriginC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="PermitNoC" class="form-control" />
+                                                    <span asp-validation-for="PermitNoC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateC" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="ReExportC" class="form-control" />
+                                                    <span asp-validation-for="ReExportC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="CertificateNoC" class="form-control" />
+                                                    <span asp-validation-for="CertificateNoC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="DateaC" type="date" class="form-control" />
+                                                    <span asp-validation-for="DateaC" class="text-danger"></span>
+                                                </th>
+                                                <th>
+                                                    <input asp-for="NoOfOperationC" class="form-control" />
+                                                    <span asp-validation-for="NoOfOperationC" class="text-danger"></span>
+                                                </th>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label"><br>This permit/certificate is issued by:</label>
+                                    <div class="col-sm-3">
+                                        &nbsp;
+                                        <input asp-for="IssuedBy" class="form-control" type="text" />
+                                        <span asp-validation-for="IssuedBy" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        Place
+                                        <input asp-for="IssuedPlace" class="form-control" type="text" />
+                                        <span asp-validation-for="IssuedPlace" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        Date
+                                        <input asp-for="IssueDate" type="date" class="form-control" />
+                                        <span asp-validation-for="IssueDate" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="save_draft" id="save_draft" value="true">
+                            </div>
+                            <div class="box-footer">
+                                <button type="button" class="btn btn-danger" id="backTab" style="width: 120px;"><i class="fa fa-arrow-circle-o-left"></i> Previous</button>
+                                <button type="button" class="btn btn-warning" id="submitForm1"><i class="fa fa-check-circle-o"></i> Save as draft</button>
+                                <button type="submit" class="btn btn-primary" id="submitForm2"><i class="fa fa-check-circle-o"></i> Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<script>
+        $("#nextTab").click(function (e) {
+            e.preventDefault();
+            console.log('working');
+            $('#mytabs a[href="#second"]').tab('show');
+        });
+
+        $("#backTab").click(function (e) {
+            e.preventDefault();
+            $('#mytabs a[href="#first"]').tab('show');
+        });
+
+        $('#submitForm1').click(function (e) {
+            e.preventDefault();
+            if (!confirm("Are you sure want to save this as draft?")) {
+                return false;
+            } else {
+                $("#save_draft").val("Saved as Draft");
+                $("#formProfile").submit();
+            }
+        });
+        $('#submitForm2').click(function (e) {
+            e.preventDefault();
+            if (!confirm("Are you sure want to submit this form?")) {
+                return false;
+            } else {
+                $("#save_draft").val("Final Form");
+                 $("#formProfile").submit();
+            }
+        });
+        $("#submitForm2W").click(function () {
+            var certificatedetail = new Object();
+            //certificatedetail.Name = $('#txtName').val();
+            //certificatedetail.Address = $('#txtDesignation').val();
+            //certificatedetail.Location = $('#txtLocation').val();
+            if (certificatedetail != null) {
+                $.ajax({
+                    type: "POST",
+                    url: "/Certificate/Add",
+                    data: JSON.stringify(certificatedetail),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response != null) {
+                            alert("Name : " + response.Name + ", Designation : " + response.Designation + ", Location :" + response.Location);
+                        } else {
+                            alert("Something went wrong");
+                        }
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            }
+        });
+</script>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

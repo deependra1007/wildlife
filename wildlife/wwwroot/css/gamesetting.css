@@ -1,0 +1,2108 @@
+
+
+.good_road_banker::after, .good_road_player::after, .good_road_normal::after, .good_road_player-a::after, .good_road_player-b::after, .good_road_blue::after, .good_road_red::after, .good_road_banker.long_dragon::after, .long_dragon.good_road_player::after, .long_dragon.good_road_normal::after, .long_dragon.good_road_player-a::after, .long_dragon.good_road_player-b::after, .long_dragon.good_road_blue::after, .long_dragon.good_road_red::after, .btn_mode .back::after, .btn_mode .mulit::after, .btn_mode .video_off::after, .btn_mode .video_on::after, .btn_mode .menu::after, .title > a::after, .event_mark::after, .game_info_box h3 a::after, .game_info_box_full h3 a::after, .btn_bet_confirm::after, .btn_bet_cancel::after, .btn_bet_rebet::after, .switch_type6_on::after, .switch_type6_off::after, .switch_type7_on::after, .switch_type7_off::after, .open_card-win::after, .guide_con h4 a::after, .guide_con_full h4 a::after, .trans_con h4 a::after, .trans_con .search_date .search p::after, .trans_con .roulette_result dd span::after, .replay_con h4 a::after, .replay_con .con .roulette_zone dd span::after, .replay_con .con .RB_sicbo .open_card-show dd::after, .maintenance_table_con a::after, .maintenance_system_con a::after {
+  content: "";
+  display: block;
+}
+
+
+.good_road_banker::after, .good_road_player::after, .good_road_normal::after, .good_road_player-a::after, .good_road_player-b::after, .good_road_blue::after, .good_road_red::after, .good_road_banker.long_dragon::after, .long_dragon.good_road_player::after, .long_dragon.good_road_normal::after, .long_dragon.good_road_player-a::after, .long_dragon.good_road_player-b::after, .long_dragon.good_road_blue::after, .long_dragon.good_road_red::after, .btn_mode .back::after, .btn_mode .mulit::after, .btn_mode .video_off::after, .btn_mode .video_on::after, .btn_mode .menu::after, .title > a::after, .event_mark::after, .game_info_box h3 a::after, .game_info_box_full h3 a::after, .btn_bet_confirm::after, .btn_bet_cancel::after, .btn_bet_rebet::after, .switch_type6_on::after, .switch_type6_off::after, .switch_type7_on::after, .switch_type7_off::after, .open_card-win::after, .guide_con h4 a::after, .guide_con_full h4 a::after, .trans_con h4 a::after, .trans_con .search_date .search p::after, .trans_con .roulette_result dd span::after, .replay_con h4 a::after, .replay_con .con .roulette_zone dd span::after, .replay_con .con .RB_sicbo .open_card-show dd::after, .maintenance_table_con a::after, .maintenance_system_con a::after {
+    content: "";
+    display: block;
+}
+
+
+
+@media screen and (orientation: portrait) {
+ 
+
+.guide_con, .guide_con_full {
+  display: block;
+  padding: 4.49775vmax 2.24888vmax 0.74963vmax 2.24888vmax;
+}
+
+.guide_con h4, .guide_con_full h4 {
+  font-size: 2.09895vmax;
+  font-weight: normal;
+  color: #bfa785;
+  margin-bottom: 1.49925vmax;
+  position: relative;
+}
+
+.guide_con h4 a, .guide_con_full h4 a {
+  width: 3.74813vmax;
+  height: 3.74813vmax;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.guide_con h4 a::after, .guide_con_full h4 a::after {
+  width: 2.69865vmax;
+  height: 2.69865vmax;
+  background-image: url('data:image/svg+xml,<svg width="13" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.31L11.69 0 6.5 5.19 1.31 0 0 1.31 5.19 6.5 0 11.69 1.31 13 6.5 7.81 11.69 13 13 11.69 7.81 6.5 13 1.31" fill="rgb(200, 200, 200)" fill-rule="evenodd"/></svg>');
+  background-size: 100% 100%;
+}
+
+.guide_con .page_tag, .guide_con_full .page_tag {
+  width: 19.49025vmax;
+  height: calc(100% - 5.997vmax);
+  margin: 0;
+}
+
+.guide_con .page_tag li, .guide_con_full .page_tag li {
+  width: 100%;
+  float: none;
+}
+
+.guide_con .main_con, .guide_con_full .main_con {
+  width: calc(100% - 19.49025vmax);
+  height: calc(100% - 5.997vmax);
+  overflow-y: auto;
+  padding-left: 2.24888vmax;
+  font-size: 1.7991vmax;
+  line-height: 2.9985vmax;
+  color: #dcdcdc;
+}
+
+.guide_con .banker, .guide_con_full .banker {
+  color: #F10C0C;
+}
+
+.guide_con .player, .guide_con_full .player {
+  color: #4694DE;
+}
+
+.guide_con .tie, .guide_con_full .tie {
+  color: #8ECB34;
+}
+
+.guide_con .other, .guide_con_full .other {
+  color: #b8ab83;
+}
+
+.guide_con .player-a, .guide_con_full .player-a {
+  color: #216BB0;
+}
+
+.guide_con .player-b, .guide_con_full .player-b {
+  color: #B80909;
+}
+
+.guide_con p, .guide_con_full p {
+  font-size: 1.7991vmax;
+  margin-bottom: 4.49775vmax;
+}
+
+.guide_con p.with_photo, .guide_con_full p.with_photo {
+  display: flex;
+  align-items: center;
+}
+
+.guide_con p.with_photo img, .guide_con_full p.with_photo img {
+  display: inline-block;
+  width: inherit;
+  margin: 0 2.24888vmax 0 0;
+}
+
+.guide_con h3, .guide_con_full h3 {
+  color: #D6CAA5;
+  font-weight: normal;
+  font-size: 2.54873vmax;
+  margin-bottom: 1.49925vmax;
+}
+
+.guide_con img, .guide_con_full img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 2.9985vmax;
+}
+
+.guide_con img.sp_img, .guide_con_full img.sp_img {
+  width: 100%;
+  height: auto;
+}
+
+.guide_con ol, .guide_con_full ol, .guide_con ul, .guide_con_full ul {
+  padding-left: 2.9985vmax;
+  margin-bottom: 4.49775vmax;
+}
+
+.guide_con ol li, .guide_con_full ol li, .guide_con ul li, .guide_con_full ul li {
+  margin-bottom: 1.1994vmax;
+  list-style: decimal;
+}
+
+.guide_con ol table, .guide_con_full ol table, .guide_con ul table, .guide_con_full ul table {
+  margin-top: 2.24888vmax;
+}
+
+.guide_con ul, .guide_con_full ul {
+  padding-left: 0px;
+  margin-bottom: 2.24888vmax;
+}
+
+.guide_con ul li, .guide_con_full ul li {
+  list-style: none;
+}
+
+.guide_con table, .guide_con_full table {
+  width: 100%;
+  margin-bottom: 2.9985vmax;
+}
+
+.guide_con table.road_table, .guide_con_full table.road_table {
+  margin-top: 2.9985vmax;
+}
+
+.guide_con table.road_table th, .guide_con_full table.road_table th {
+  width: 4.04798vmax;
+}
+
+.guide_con table.road_table td, .guide_con_full table.road_table td {
+  padding: 0.74963vmax;
+  border-bottom: none;
+}
+
+.guide_con table.road_table img, .guide_con_full table.road_table img {
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+.guide_con td, .guide_con_full td {
+  padding: 1.04948vmax 0.74963vmax;
+}
+
+.guide_con thead td, .guide_con_full thead td {
+  background: #333;
+}
+
+.guide_con tbody td, .guide_con_full tbody td {
+  border-bottom: 1px #424242 solid;
+}
+
+.guide_con tfoot td, .guide_con_full tfoot td {
+  color: #8c856c;
+}
+
+.guide_con dl, .guide_con_full dl {
+  margin-bottom: 2.9985vmax;
+  display: flex;
+  border-bottom: 1px #333 solid;
+}
+
+.guide_con dl dt, .guide_con_full dl dt {
+  flex: 1;
+  font-size: 1.7991vmax;
+  color: #dcdcdc;
+}
+
+.guide_con dl dd, .guide_con_full dl dd {
+  width: 17.991vmax;
+  margin-left: 1.49925vmax;
+}
+
+.guide_con dl dd img, .guide_con_full dl dd img {
+  width: 100%;
+  height: auto;
+}
+
+.guide_con .teenpatti_card, .guide_con_full .teenpatti_card {
+  display: flex;
+  width: 99%;
+  align-items: center;
+  border-bottom: 1px #333 solid;
+  padding-bottom: 1.49925vmax;
+  margin-bottom: 2.24888vmax;
+}
+
+.guide_con .teenpatti_card ul, .guide_con_full .teenpatti_card ul {
+  position: relative;
+  width: 12.74363vmax;
+  height: 9.74513vmax;
+  margin: 0.74963vmax 0 0 0;
+}
+
+.guide_con .teenpatti_card li, .guide_con_full .teenpatti_card li {
+  position: absolute;
+}
+
+.guide_con .teenpatti_card li div, .guide_con_full .teenpatti_card li div {
+  width: 5.69715vmax;
+  height: 8.69565vmax;
+}
+
+.guide_con .teenpatti_card li div span, .guide_con_full .teenpatti_card li div span {
+  width: 100%;
+  height: auto;
+  line-height: 4.7976vmax;
+  font-size: 3.74813vmax;
+  padding-left: 0.5997vmax;
+}
+
+.guide_con .teenpatti_card li div:after, .guide_con_full .teenpatti_card li div:after {
+  right: auto;
+  left: 0.29985vmax;
+  bottom: 1.1994vmax;
+  width: 2.69865vmax;
+  height: 2.69865vmax;
+}
+
+.guide_con .teenpatti_card li:nth-child(1n), .guide_con_full .teenpatti_card li:nth-child(1n) {
+  left: 0.74963vmax;
+  top: 0vmax;
+}
+
+.guide_con .teenpatti_card li:nth-child(2n), .guide_con_full .teenpatti_card li:nth-child(2n) {
+  left: 3.74813vmax;
+  top: 0.29985vmax;
+}
+
+.guide_con .teenpatti_card li:nth-child(3n), .guide_con_full .teenpatti_card li:nth-child(3n) {
+  left: 6.74663vmax;
+  top: 0.5997vmax;
+}
+
+.guide_con .teenpatti_card .line, .guide_con_full .teenpatti_card .line {
+  flex: 1;
+  height: 0.29985vmax;
+  background: #444;
+  margin: 0 0.74963vmax 0.74963vmax 0.74963vmax;
+}
+
+.guide_con_full {
+  padding: 1.49925vmax;
+}
+
+.guide_con_full .main_con {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.9985vmax;
+}
+
+.trans_con {
+  display: block;
+  padding: 4.49775vmax 1.1994vmax 1.1994vmax 1.1994vmax;
+}
+
+.trans_con h4 {
+  font-size: 2.09895vmax;
+  font-weight: normal;
+  color: #bfa785;
+  margin-bottom: 1.49925vmax;
+  position: relative;
+  padding: 0.74963vmax 0;
+}
+
+.trans_con h4 a {
+  width: 3.74813vmax;
+  height: 3.74813vmax;
+  position: absolute;
+  top: 0;
+  right: 1.49925vmax;
+}
+
+.trans_con h4 a::after {
+  width: 2.54873vmax;
+  height: 2.54873vmax;
+  background-image: url('data:image/svg+xml,<svg width="13" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.31L11.69 0 6.5 5.19 1.31 0 0 1.31 5.19 6.5 0 11.69 1.31 13 6.5 7.81 11.69 13 13 11.69 7.81 6.5 13 1.31" fill="rgb(200, 200, 200)" fill-rule="evenodd"/></svg>');
+  background-size: 100% 100%;
+}
+
+.trans_con .search_date {
+  margin-bottom: 0.44978vmax;
+}
+
+.trans_con .search_date input {
+  height: 4.94753vmax;
+  margin-bottom: 0.74963vmax;
+  margin-right: 0.29985vmax;
+  flex: 1;
+  font-size: 1.7991vmax;
+}
+
+.trans_con .search_date input:last-child {
+  margin-right: 0px;
+}
+
+.trans_con .search_date .search {
+  display: flex;
+}
+
+.trans_con .search_date .search input {
+  background: #000;
+  border: 1px #656565 solid;
+  color: #F8F8F8;
+  padding: 0 1.1994vmax;
+  width: 0px;
+  font-size: 1.94903vmax;
+}
+
+.trans_con .search_date .search input.focus {
+  color: #000;
+  background: linear-gradient(0deg, #CE9500 0%, #FFC300 100%);
+  border: 1px #000 solid;
+}
+
+.trans_con .search_date .search p {
+  width: 4.49775vmax;
+  height: 4.94753vmax;
+  margin-right: 0.74963vmax;
+}
+
+.trans_con .search_date .search p::after {
+  width: 2.69865vmax;
+  height: 2.69865vmax;
+  background-image: url('data:image/svg+xml,<svg width="19" height="19" xmlns="http://www.w3.org/2000/svg"><g fill="rgb(165, 165, 165)" fill-rule="evenodd"><path d="M4.666.35H.674a.665.665 0 0 0-.665.667v3.992c0 .367.298.665.665.665h3.992a.665.665 0 0 0 .665-.665V1.017A.665.665 0 0 0 4.666.35zM4 4.344H1.34v-2.66H4v2.66zM4.666 6.845H.674a.665.665 0 0 0-.665.666v3.992c0 .367.298.665.665.665h3.992a.665.665 0 0 0 .665-.665V7.51a.665.665 0 0 0-.665-.666zM4 10.837H1.34v-2.66H4v2.66zM4.666 13.34H.674a.665.665 0 0 0-.665.665v3.991c0 .368.298.666.665.666h3.992a.665.665 0 0 0 .665-.666v-3.991a.665.665 0 0 0-.665-.666zM4 17.33H1.34v-2.66H4v2.66zM11.32.35H7.328a.666.666 0 0 0-.666.667v3.992c0 .367.299.665.666.665h3.992a.666.666 0 0 0 .665-.665V1.017A.666.666 0 0 0 11.32.35zm-.665 3.993H7.994v-2.66h2.66v2.66zM11.32 6.845H7.328a.666.666 0 0 0-.666.666v3.992c0 .367.299.665.666.665h3.992a.665.665 0 0 0 .665-.665V7.51a.666.666 0 0 0-.665-.666zm-.665 3.992H7.994v-2.66h2.66v2.66zM11.32 13.34H7.328a.666.666 0 0 0-.666.665v3.991c0 .368.299.666.666.666h3.992a.666.666 0 0 0 .665-.666v-3.991a.666.666 0 0 0-.665-.666zm-.665 3.991H7.994v-2.66h2.66v2.66zM17.974.35h-3.992a.666.666 0 0 0-.665.667v3.992c0 .367.298.665.665.665h3.992a.666.666 0 0 0 .666-.665V1.017a.666.666 0 0 0-.666-.666zm-.665 3.993h-2.662v-2.66h2.662v2.66zM17.974 6.845h-3.992a.666.666 0 0 0-.665.666v3.992c0 .367.298.665.665.665h3.992a.665.665 0 0 0 .666-.665V7.51a.666.666 0 0 0-.666-.666zm-.665 3.992h-2.662v-2.66h2.662v2.66zM17.974 13.34h-3.992a.666.666 0 0 0-.665.665v3.991c0 .368.298.666.665.666h3.992a.666.666 0 0 0 .666-.666v-3.991a.666.666 0 0 0-.666-.666zm-.665 3.991h-2.662v-2.66h2.662v2.66z"/></g></svg>');
+  background-size: 100% 100%;
+}
+
+.trans_con .search_date .quick_search {
+  display: flex;
+}
+
+.trans_con .search_date .quick_search input {
+  color: #D1D1D1;
+  background: linear-gradient(-179deg, #525252 0%, #2C2C2C 100%);
+  border: 1px solid #232323;
+}
+
+.trans_con .game_list {
+  position: relative;
+  width: 19.49025vmax;
+  height: calc(100% - 17.84108vmax);
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.74963vmax;
+  overflow-y: auto;
+}
+
+.trans_con .game_list li {
+  width: 100%;
+  height: auto;
+  flex: none;
+  align-items: center;
+  font-size: 1.7991vmax;
+  color: #F8EDCF;
+  background-image: linear-gradient(0deg, #38352b 0%, #000000 100%);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  border-radius: 0.44978vmax;
+  border: 1px #6d6651 solid;
+  margin-bottom: 0.29985vmax;
+  padding: 1.94903vmax 0 1.94903vmax 1.1994vmax;
+  box-shadow: inset 0 -1px 12px 1px rgba(0, 0, 0, 0.83);
+}
+
+.trans_con .game_list li.now {
+  border: 1px #fff9d4 solid;
+  background-image: linear-gradient(0deg, #a78f40 0%, #291d08 100%);
+}
+
+.trans_con .game_list .game_list_layer2 {
+  display: block;
+  padding: 0;
+  border: 1px #444033 solid;
+  border-radius: 0 0 0.44978vmax 0.44978vmax;
+  margin-bottom: 1.49925vmax;
+}
+
+.trans_con .game_list .game_list_layer2 p {
+  padding: 1.1994vmax;
+  border-bottom: 1px #403c32 solid;
+  color: #8e8374;
+}
+
+.trans_con .game_list .game_list_layer2 p:last-child {
+  border-bottom: none;
+}
+
+.trans_con .game_list .game_list_layer2 p.now {
+  background-image: linear-gradient(0deg, #d2b659 0%, #715525 100%);
+  box-shadow: inset 0 0px 1px 1px rgba(0, 0, 0, 0.8);
+  color: #f8edcf;
+}
+
+.trans_con .scroll {
+  width: 0.74963vmax;
+  height: calc(100% - 17.84108vmax);
+  background: #615f5a;
+  padding: 0.14993vmax;
+  margin: 0 1.1994vmax 0 0;
+  border-radius: 0.44978vmax;
+}
+
+.trans_con .scroll span {
+  display: block;
+  height: 35%;
+  border-radius: 0.44978vmax;
+  background: #dcd6c5;
+}
+
+.trans_con .game_list_layer2 {
+  display: none;
+}
+
+.trans_con .trans_main_con {
+  width: calc(100% - 22.18891vmax);
+  height: 32.68366vmax;
+  overflow-y: auto;
+}
+
+.trans_con .trans_main_con p {
+  font-size: 1.94903vmax;
+  font-weight: normal;
+  background: #353535;
+  padding: 1.49925vmax 1.1994vmax;
+  border-bottom: 1px #000 solid;
+}
+
+.trans_con .trans_main_con p i {
+  display: block;
+  color: #e8e8e8;
+  margin-right: 2.24888vmax;
+  font-style: inherit;
+}
+
+.trans_con .trans_main_con p i span {
+  padding-left: 1.49925vmax;
+}
+
+.trans_con .trans_main_con p i span.negative {
+  color: #ff0000;
+}
+
+.trans_con .trans_main_con p::before {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.74963vmax 0.74963vmax 0 0.74963vmax;
+  border-color: #efb907 transparent transparent transparent;
+  margin-top: 0.44978vmax;
+}
+
+.trans_con .trans_main_con p.open::before {
+  border-width: 0 0.74963vmax 0.74963vmax 0.74963vmax;
+  border-color: transparent transparent #a2a2a2 transparent;
+}
+
+.trans_con .trans_list {
+  width: 100%;
+  background: #e9e8e8;
+}
+
+.trans_con .trans_list th {
+  font-size: 2.24888vmax;
+  padding: 1.1994vmax 1.1994vmax 1.1994vmax 1.34933vmax;
+  border-bottom: 1px #191919 solid;
+  background: #dcd6c5;
+  color: #484848;
+  font-weight: normal;
+}
+
+.trans_con .trans_list th i {
+  font-style: inherit;
+}
+
+.trans_con .trans_list th span {
+  display: block;
+}
+
+.trans_con .trans_list th span strong {
+  padding: 0 0 0 0.74963vmax;
+  color: #1f1f1f;
+}
+
+.trans_con .trans_list th.no {
+  display: table-cell;
+  background: #efefef;
+  border-bottom: 1px #6B6B6B solid;
+  font-size: 1.94903vmax;
+  padding: 1.04948vmax 0.74963vmax;
+  color: #333;
+}
+
+.trans_con .trans_list th.no span {
+  display: inherit;
+  font-size: 1.64918vmax;
+  color: #404040;
+  background: #d2d1ce;
+  border-radius: 0.29985vmax;
+  padding: 0.29985vmax 0.74963vmax;
+  float: none;
+}
+
+.trans_con .trans_list th + td {
+  text-align: left;
+}
+
+.trans_con .trans_list .void td {
+  background: url(../../images/baccarat-mobile/del_bg.png) 0 center repeat-x #efefef;
+}
+
+.trans_con .trans_list td {
+  background: #efefef;
+  border-bottom: 1px #6B6B6B solid;
+  font-size: 1.94903vmax;
+  padding: 1.04948vmax 0.44978vmax;
+  color: #333;
+}
+
+.trans_con .trans_list td i {
+  display: inline-table;
+  font-size: 1.49925vmax;
+}
+
+.trans_con .trans_list td.more::after, .trans_con .trans_list td.open::after {
+  content: "";
+  display: inline-block;
+  clear: both;
+  border-style: solid;
+  border-width: 0.74963vmax 0.74963vmax 0 0.74963vmax;
+  border-color: #a5966b transparent transparent transparent;
+  right: 0;
+  top: calc(50% - 0.29985vmax);
+  margin: 0 0.5997vmax 0 0.29985vmax;
+}
+
+.trans_con .trans_list td.open::after {
+  border-width: 0 0.74963vmax 0.74963vmax 0.74963vmax;
+  border-color: transparent transparent #333 transparent;
+}
+
+.trans_con .trans_list td.no_more::after {
+  content: "";
+  display: inline-block;
+  width: 1.34933vmax;
+  height: 0.74963vmax;
+  background: none;
+  margin: 0 0.5997vmax 0 1.04948vmax;
+}
+
+.trans_con .trans_list td.no {
+  display: none;
+  border-bottom: none;
+  background: #dcdcdc;
+  padding: 0.44978vmax 1.04948vmax;
+  font-size: 1.64918vmax;
+}
+
+.trans_con .trans_list .layer2 td {
+  background-color: #e0ded6;
+  border-bottom: 1px #a9a48e solid;
+}
+
+.trans_con .trans_list .layer2 th.no {
+  background: #e0ded6;
+  border-bottom: 1px #a9a48e solid;
+}
+
+.trans_con .trans_list .layer2 th.no span {
+  color: #404040;
+  background: #c5c2b8;
+}
+
+.trans_con .trans_list .layer3 td {
+  background-color: #c5c0b4;
+  border-bottom: 1px #696557 solid;
+}
+
+.trans_con .trans_list .layer3 th.no {
+  background: #c5c0b4;
+  border-bottom: 1px #696557 solid;
+}
+
+.trans_con .trans_list .layer3 th.no span {
+  color: #404040;
+  background: #b3a88f;
+}
+
+.trans_con .trans_list .list_title td, .trans_con .trans_list .list_title th {
+  background: #cac7c0;
+  border: none;
+  font-size: 1.94903vmax;
+}
+
+.trans_con .trans_list .list_total td, .trans_con .trans_list .list_info td {
+  border-bottom: 1.1994vmax #191919 solid;
+  background: linear-gradient(0deg, #e6e5e5 93%, #676767 100%);
+}
+
+.trans_con .trans_list .list_total td:first-child, .trans_con .trans_list .list_info td:first-child {
+  padding-left: 1.1994vmax;
+}
+
+.trans_con .trans_list .list_total td:last-child, .trans_con .trans_list .list_info td:last-child {
+  padding-right: 4.34783vmax;
+}
+
+.trans_con .trans_list .list_info td {
+  border-bottom-width: 1px;
+  color: #5f5f5f;
+  padding: 0.74963vmax 0 0.74963vmax 1.49925vmax;
+}
+
+.trans_con .trans_list .list_info span {
+  padding-left: 0.44978vmax;
+}
+
+.trans_con .trans_list .list_info .replay {
+  padding-right: 3.74813vmax;
+  background-image: url('data:image/svg+xml,<svg width="13" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M5.2 9.425L9.1 6.5 5.2 3.575v5.85zM6.5 0A6.502 6.502 0 0 0 0 6.5C0 10.088 2.912 13 6.5 13S13 10.088 13 6.5 10.088 0 6.5 0zm0 11.7a5.207 5.207 0 0 1-5.2-5.2c0-2.867 2.334-5.2 5.2-5.2s5.2 2.333 5.2 5.2-2.334 5.2-5.2 5.2z" fill="rgb(3, 1, 4)" fill-rule="evenodd"/></svg>'), linear-gradient(0deg, #e6e5e5 93%, #676767 100%);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.89955vmax) center, 0 0;
+  background-size: 16% auto, 100% 100%;
+  background-color: inherit;
+}
+
+.trans_con .trans_list .list_info .sicbo_zone, .trans_con .trans_list .list_info .fish_prawn_crab, .trans_con .trans_list .list_info .rb_sicbo_zone, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab_zone, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab_zone {
+  display: inline-block;
+  margin: 0 0 0 1.04948vmax;
+}
+
+.trans_con .trans_list .list_info .sicbo_zone .dice-1, .trans_con .trans_list .list_info .fish_prawn_crab .dice-1, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-1, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab_zone .dice-1, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab_zone .dice-1 {
+  background-size: 50% 50%;
+}
+
+.trans_con .trans_list .list_info .sicbo_zone li, .trans_con .trans_list .list_info .fish_prawn_crab li, .trans_con .trans_list .list_info .rb_sicbo_zone li, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab_zone li, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab_zone li {
+  width: 3.74813vmax;
+  height: 3.74813vmax;
+  border-radius: 0.74963vmax;
+  border: 1px #b3b3b3 solid;
+  margin: 0 0.14993vmax 0 0;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 78%;
+}
+
+.trans_con .trans_list .list_info .fish_prawn_crab li {
+  background-size: 90% 90%;
+}
+
+.trans_con .trans_list .list_info .rb_sicbo_zone li {
+  background-size: 100% 100%;
+}
+
+.trans_con .trans_list .banker {
+  color: #d40d0d;
+}
+
+.trans_con .trans_list .player {
+  color: #117bb7;
+}
+
+.trans_con .trans_list .tie {
+  color: #709c16;
+}
+
+.trans_con .trans_list .tie_super {
+  color: #e6a100;
+}
+
+.trans_con .trans_list .other {
+  color: #a28a3b;
+}
+
+.trans_con .trans_list .negative {
+  color: #d40d0d;
+}
+
+.trans_con .trans_list .player-a {
+  color: #216BB0;
+}
+
+.trans_con .trans_list .player-b {
+  color: #B80909;
+}
+
+.trans_con .sicbo_set .dice-1, .trans_con .trans_list .list_info .sicbo_zone .dice-1, .trans_con .trans_list .list_info .fish_prawn_crab .dice-1, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-1, .trans_con .replay_con .con .sicbo_zone .dice-1, .replay_con .con .trans_con .sicbo_zone .dice-1, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-1, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-1 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-1.svg);
+}
+
+.trans_con .sicbo_set .dice-2, .trans_con .trans_list .list_info .sicbo_zone .dice-2, .trans_con .trans_list .list_info .fish_prawn_crab .dice-2, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-2, .trans_con .replay_con .con .sicbo_zone .dice-2, .replay_con .con .trans_con .sicbo_zone .dice-2, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-2, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-2 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-2.svg);
+}
+
+.trans_con .sicbo_set .dice-3, .trans_con .trans_list .list_info .sicbo_zone .dice-3, .trans_con .trans_list .list_info .fish_prawn_crab .dice-3, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-3, .trans_con .replay_con .con .sicbo_zone .dice-3, .replay_con .con .trans_con .sicbo_zone .dice-3, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-3, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-3 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-3.svg);
+}
+
+.trans_con .sicbo_set .dice-4, .trans_con .trans_list .list_info .sicbo_zone .dice-4, .trans_con .trans_list .list_info .fish_prawn_crab .dice-4, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-4, .trans_con .replay_con .con .sicbo_zone .dice-4, .replay_con .con .trans_con .sicbo_zone .dice-4, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-4, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-4 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-4.svg);
+}
+
+.trans_con .sicbo_set .dice-5, .trans_con .trans_list .list_info .sicbo_zone .dice-5, .trans_con .trans_list .list_info .fish_prawn_crab .dice-5, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-5, .trans_con .replay_con .con .sicbo_zone .dice-5, .replay_con .con .trans_con .sicbo_zone .dice-5, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-5, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-5 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-5.svg);
+}
+
+.trans_con .sicbo_set .dice-6, .trans_con .trans_list .list_info .sicbo_zone .dice-6, .trans_con .trans_list .list_info .fish_prawn_crab .dice-6, .trans_con .trans_list .list_info .rb_sicbo_zone .dice-6, .trans_con .replay_con .con .sicbo_zone .dice-6, .replay_con .con .trans_con .sicbo_zone .dice-6, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-6, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-6 {
+  background-image: url(../../images/baccarat-mobile/icon_dice-6.svg);
+}
+
+.trans_con .fish_prawn_crab_set .dice-crab, .trans_con .trans_list .list_info .fish_prawn_crab .dice-crab, .trans_con .replay_con .con .sicbo_zone .dice-crab, .replay_con .con .trans_con .sicbo_zone .dice-crab, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-crab, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-crab, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-crab, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-crab {
+  background-image: url(../../images/fish_prawn_crab-web/dice-crab.png);
+}
+
+.trans_con .fish_prawn_crab_set .dice-deer, .trans_con .trans_list .list_info .fish_prawn_crab .dice-deer, .trans_con .replay_con .con .sicbo_zone .dice-deer, .replay_con .con .trans_con .sicbo_zone .dice-deer, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-deer, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-deer, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-deer, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-deer {
+  background-image: url(../../images/fish_prawn_crab-web/dice-deer.png);
+}
+
+.trans_con .fish_prawn_crab_set .dice-fish, .trans_con .trans_list .list_info .fish_prawn_crab .dice-fish, .trans_con .replay_con .con .sicbo_zone .dice-fish, .replay_con .con .trans_con .sicbo_zone .dice-fish, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-fish, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-fish, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-fish, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-fish {
+  background-image: url(../../images/fish_prawn_crab-web/dice-fish.png);
+}
+
+.trans_con .fish_prawn_crab_set .dice-gourd, .trans_con .trans_list .list_info .fish_prawn_crab .dice-gourd, .trans_con .replay_con .con .sicbo_zone .dice-gourd, .replay_con .con .trans_con .sicbo_zone .dice-gourd, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-gourd, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-gourd, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-gourd, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-gourd {
+  background-image: url(../../images/fish_prawn_crab-web/dice-gourd.png);
+}
+
+.trans_con .fish_prawn_crab_set .dice-prawn, .trans_con .trans_list .list_info .fish_prawn_crab .dice-prawn, .trans_con .replay_con .con .sicbo_zone .dice-prawn, .replay_con .con .trans_con .sicbo_zone .dice-prawn, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-prawn, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-prawn, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-prawn, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-prawn {
+  background-image: url(../../images/fish_prawn_crab-web/dice-prawn.png);
+}
+
+.trans_con .fish_prawn_crab_set .dice-chicken, .trans_con .trans_list .list_info .fish_prawn_crab .dice-chicken, .trans_con .replay_con .con .sicbo_zone .dice-chicken, .replay_con .con .trans_con .sicbo_zone .dice-chicken, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-chicken, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-chicken, .trans_con .replay_con .con .fish_prawn_crab_zone .dice-chicken, .replay_con .con .trans_con .fish_prawn_crab_zone .dice-chicken {
+  background-image: url(../../images/fish_prawn_crab-web/dice-chicken.png);
+}
+
+.trans_con .roulette_result {
+  margin-top: 0.44978vmax;
+}
+
+.trans_con .roulette_result dt {
+  width: 3.44828vmax;
+  height: 3.44828vmax;
+  background: #131313;
+  border-radius: 0.29985vmax;
+  color: #fff;
+}
+
+.trans_con .roulette_result dd {
+  margin-top: 0.44978vmax;
+  margin-left: 0.44978vmax;
+}
+
+.trans_con .roulette_result dd span {
+  position: relative;
+  display: block;
+  padding-right: 0.74963vmax;
+  margin-right: 0.74963vmax;
+  margin-bottom: 0.29985vmax;
+}
+
+.trans_con .roulette_result dd span::after {
+  position: absolute;
+  right: 0;
+  width: 0.14993vmax;
+  height: 80%;
+  background: #B6B5B5;
+}
+
+.trans_con .roulette_result dd span:last-child {
+  margin-right: 0;
+}
+
+.trans_con .roulette_result dd span:last-child::after {
+  display: none;
+}
+
+.replay_con {
+  display: block;
+  padding: 4.49775vmax 1.1994vmax 1.1994vmax 1.1994vmax;
+}
+
+.replay_con h4 {
+  font-size: 2.09895vmax;
+  font-weight: normal;
+  color: #bfa785;
+  margin-bottom: 1.49925vmax;
+  position: relative;
+  padding: 0.74963vmax 0;
+}
+
+.replay_con h4 a {
+  width: 3.74813vmax;
+  height: 3.74813vmax;
+  position: absolute;
+  top: 0;
+  right: 1.49925vmax;
+}
+
+.replay_con h4 a::after {
+  width: 2.54873vmax;
+  height: 2.54873vmax;
+  background-image: url('data:image/svg+xml,<svg width="13" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M13 1.31L11.69 0 6.5 5.19 1.31 0 0 1.31 5.19 6.5 0 11.69 1.31 13 6.5 7.81 11.69 13 13 11.69 7.81 6.5 13 1.31" fill="rgb(200, 200, 200)" fill-rule="evenodd"/></svg>');
+  background-size: 100% 100%;
+}
+
+.replay_con .con {
+  height: calc(100% - 4.1979vmax);
+}
+
+.replay_con .con h6 {
+  font-size: 1.7991vmax;
+  margin-bottom: 1.1994vmax;
+  font-weight: normal;
+}
+
+.replay_con .con .video_box {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 50.97451vmax;
+  height: 38.98051vmax;
+  background: #000;
+}
+
+.replay_con .con .sk-folding-cube {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-100%) translateX(-10%) rotateZ(45deg);
+}
+
+.replay_con .con .sk-folding-cube p {
+  padding-top: 6.74663vmax;
+  font-size: 1.64918vmax;
+}
+
+.replay_con .con .result {
+  width: 44.97751vmax;
+  height: 38.98051vmax;
+  float: left;
+}
+
+.replay_con .con .sicbo_zone, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone, .replay_con .con .fish_prawn_crab_zone {
+  display: flex;
+  align-items: center;
+  top: 42%;
+  width: 43.47826vmax;
+  padding: 1.04948vmax;
+}
+
+.replay_con .con .sicbo_zone dl, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dl, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dl, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dl, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dl, .replay_con .con .fish_prawn_crab_zone dl {
+  flex: 2;
+}
+
+.replay_con .con .sicbo_zone dt, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dt, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dt, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dt, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dt, .replay_con .con .fish_prawn_crab_zone dt {
+  color: #b5b5b5;
+  font-size: 2.24888vmax;
+}
+
+.replay_con .con .sicbo_zone dd, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dd, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dd, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dd, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dd, .replay_con .con .fish_prawn_crab_zone dd {
+  padding-top: 0.74963vmax;
+  color: #F8EDCF;
+  font-size: 5.997vmax;
+}
+
+.replay_con .con .sicbo_zone dd span, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dd span, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dd span, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dd span, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dd span, .replay_con .con .fish_prawn_crab_zone dd span {
+  display: block;
+  font-size: 3.44828vmax;
+  color: #c1af7d;
+}
+
+.replay_con .con .sicbo_zone ul, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab ul, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab ul, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone ul, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone ul, .replay_con .con .fish_prawn_crab_zone ul {
+  flex: 3;
+}
+
+.replay_con .con .sicbo_zone li, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab li, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab li, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone li, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone li, .replay_con .con .fish_prawn_crab_zone li {
+  width: 8.9955vmax;
+  height: 8.9955vmax;
+  border-radius: 1.49925vmax;
+  border: 1px #000 solid;
+  margin: 0 0.44978vmax;
+  background-color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 76% 76%;
+}
+
+.replay_con .con .sicbo_zone .dice-1, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-1, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-1, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-1, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-1, .replay_con .con .fish_prawn_crab_zone .dice-1 {
+  background-size: 35% 35%;
+}
+
+.replay_con .con .fish_prawn_crab_zone li {
+  background-size: 90% 90%;
+}
+
+.replay_con .con .sicbo_set .dice-1.black, .replay_con .con .sicbo_zone .dice-1.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-1.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-1.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-1.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-1.black, .replay_con .con .fish_prawn_crab_zone .dice-1.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-1_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-1.red, .replay_con .con .sicbo_zone .dice-1.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-1.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-1.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-1.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-1.red, .replay_con .con .fish_prawn_crab_zone .dice-1.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-1.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-1.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-1.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-1.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-1.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-1.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-1.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-1.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-1.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-1.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-1.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-1.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-1.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-1.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-1_red.svg);
+}
+
+.replay_con .con .sicbo_set .dice-2.black, .replay_con .con .sicbo_zone .dice-2.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-2.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-2.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-2.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-2.black, .replay_con .con .fish_prawn_crab_zone .dice-2.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-2_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-2.red, .replay_con .con .sicbo_zone .dice-2.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-2.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-2.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-2.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-2.red, .replay_con .con .fish_prawn_crab_zone .dice-2.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-2.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-2.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-2.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-2.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-2.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-2.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-2.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-2.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-2.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-2.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-2.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-2.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-2.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-2.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-2_red.svg);
+}
+
+.replay_con .con .sicbo_set .dice-3.black, .replay_con .con .sicbo_zone .dice-3.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-3.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-3.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-3.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-3.black, .replay_con .con .fish_prawn_crab_zone .dice-3.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-3_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-3.red, .replay_con .con .sicbo_zone .dice-3.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-3.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-3.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-3.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-3.red, .replay_con .con .fish_prawn_crab_zone .dice-3.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-3.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-3.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-3.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-3.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-3.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-3.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-3.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-3.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-3.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-3.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-3.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-3.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-3.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-3.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-3_red.svg);
+}
+
+.replay_con .con .sicbo_set .dice-4.black, .replay_con .con .sicbo_zone .dice-4.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-4.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-4.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-4.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-4.black, .replay_con .con .fish_prawn_crab_zone .dice-4.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-4_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-4.red, .replay_con .con .sicbo_zone .dice-4.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-4.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-4.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-4.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-4.red, .replay_con .con .fish_prawn_crab_zone .dice-4.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-4.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-4.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-4.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-4.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-4.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-4.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-4.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-4.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-4.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-4.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-4.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-4.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-4.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-4.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-4_red.svg);
+}
+
+.replay_con .con .sicbo_set .dice-5.black, .replay_con .con .sicbo_zone .dice-5.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-5.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-5.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-5.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-5.black, .replay_con .con .fish_prawn_crab_zone .dice-5.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-5_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-5.red, .replay_con .con .sicbo_zone .dice-5.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-5.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-5.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-5.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-5.red, .replay_con .con .fish_prawn_crab_zone .dice-5.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-5.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-5.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-5.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-5.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-5.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-5.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-5.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-5.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-5.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-5.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-5.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-5.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-5.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-5.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-5_red.svg);
+}
+
+.replay_con .con .sicbo_set .dice-6.black, .replay_con .con .sicbo_zone .dice-6.black, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-6.black, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-6.black, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-6.black, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-6.black, .replay_con .con .fish_prawn_crab_zone .dice-6.black {
+  background-image: url(../../images/baccarat-mobile/icon_dice-6_black.svg);
+}
+
+.replay_con .con .sicbo_set .dice-6.red, .replay_con .con .sicbo_zone .dice-6.red, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-6.red, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-6.red, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-6.red, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-6.red, .replay_con .con .fish_prawn_crab_zone .dice-6.red, .replay_con .con .sicbo_set .RB_sicbo .open_card-show dd.dice-6.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_set dd.dice-6.blue, .replay_con .con .sicbo_zone .RB_sicbo .open_card-show dd.dice-6.blue, .replay_con .con .RB_sicbo .open_card-show .sicbo_zone dd.dice-6.blue, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-6.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .fish_prawn_crab dd.dice-6.blue, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .RB_sicbo .open_card-show dd.dice-6.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab dd.dice-6.blue, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-6.blue, .replay_con .con .RB_sicbo .open_card-show .trans_con .trans_list .list_info .rb_sicbo_zone dd.dice-6.blue, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .RB_sicbo .open_card-show dd.dice-6.blue, .trans_con .trans_list .list_info .replay_con .con .RB_sicbo .open_card-show .rb_sicbo_zone dd.dice-6.blue, .replay_con .con .fish_prawn_crab_zone .RB_sicbo .open_card-show dd.dice-6.blue, .replay_con .con .RB_sicbo .open_card-show .fish_prawn_crab_zone dd.dice-6.blue {
+  background-image: url(../../images/baccarat-mobile/icon_dice-6_red.svg);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-crab, .replay_con .con .sicbo_zone .dice-crab, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-crab, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-crab, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-crab, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-crab, .replay_con .con .fish_prawn_crab_zone .dice-crab {
+  background-image: url(../../images/fish_prawn_crab-web/dice-crab.png);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-deer, .replay_con .con .sicbo_zone .dice-deer, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-deer, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-deer, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-deer, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-deer, .replay_con .con .fish_prawn_crab_zone .dice-deer {
+  background-image: url(../../images/fish_prawn_crab-web/dice-deer.png);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-fish, .replay_con .con .sicbo_zone .dice-fish, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-fish, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-fish, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-fish, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-fish, .replay_con .con .fish_prawn_crab_zone .dice-fish {
+  background-image: url(../../images/fish_prawn_crab-web/dice-fish.png);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-gourd, .replay_con .con .sicbo_zone .dice-gourd, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-gourd, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-gourd, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-gourd, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-gourd, .replay_con .con .fish_prawn_crab_zone .dice-gourd {
+  background-image: url(../../images/fish_prawn_crab-web/dice-gourd.png);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-prawn, .replay_con .con .sicbo_zone .dice-prawn, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-prawn, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-prawn, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-prawn, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-prawn, .replay_con .con .fish_prawn_crab_zone .dice-prawn {
+  background-image: url(../../images/fish_prawn_crab-web/dice-prawn.png);
+}
+
+.replay_con .con .fish_prawn_crab_set .dice-chicken, .replay_con .con .sicbo_zone .dice-chicken, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab .dice-chicken, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab .dice-chicken, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone .dice-chicken, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone .dice-chicken, .replay_con .con .fish_prawn_crab_zone .dice-chicken {
+  background-image: url(../../images/fish_prawn_crab-web/dice-chicken.png);
+}
+
+.replay_con .con .roulette_zone {
+  display: flex;
+  align-items: center;
+  top: 42%;
+  padding: 1.04948vmax;
+}
+
+.replay_con .con .roulette_zone dt {
+  width: 8.9955vmax;
+  height: 8.9955vmax;
+  border-radius: 0.74963vmax;
+  margin-bottom: 1.49925vmax;
+  background: #000;
+  color: #fff;
+  font-size: 4.49775vmax;
+}
+
+.replay_con .con .roulette_zone dd {
+  font-size: 2.09895vmax;
+}
+
+.replay_con .con .roulette_zone dd span {
+  position: relative;
+  display: block;
+  margin-right: 1.1994vmax;
+  margin-bottom: 0.74963vmax;
+  padding-right: 1.1994vmax;
+}
+
+.replay_con .con .roulette_zone dd span::after {
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 70%;
+  background: #5a4f28;
+}
+
+.replay_con .con .roulette_zone dd span:last-child::after {
+  display: none;
+}
+
+.replay_con .con .RB_sicbo .win-blue dl:first-of-type {
+  background: none;
+}
+
+.replay_con .con .RB_sicbo .win-blue dl:first-of-type dt {
+  color: #F10C0C;
+}
+
+.replay_con .con .RB_sicbo .win-blue dl:last-of-type dt {
+  color: #fff;
+}
+
+.replay_con .con .RB_sicbo .win-red dl:first-of-type dt {
+  color: #fff;
+}
+
+.replay_con .con .RB_sicbo .win-red dl:last-of-type {
+  background: none;
+}
+
+.replay_con .con .RB_sicbo .win-red dl:last-of-type dt {
+  color: #4694DE;
+}
+
+.replay_con .con .RB_sicbo .win-tie dl:first-of-type {
+  background: none;
+}
+
+.replay_con .con .RB_sicbo .win-tie dl:first-of-type dt {
+  color: #F10C0C;
+}
+
+.replay_con .con .RB_sicbo .win-tie dl:last-of-type {
+  background: none;
+}
+
+.replay_con .con .RB_sicbo .win-tie dl:last-of-type dt {
+  color: #4694DE;
+}
+
+.replay_con .con .RB_sicbo .open_card-show dd {
+  top: 17.991vmax;
+  left: 5.24738vmax;
+}
+
+.replay_con .con .RB_sicbo .open_card-show dd.red, .replay_con .con .RB_sicbo .open_card-show dd.blue {
+  width: 11.994vmax;
+  height: 11.994vmax;
+  background: linear-gradient(0deg, #5f0505 0%, #c31a1a 100%);
+  border: 1px #420505 solid;
+  border-radius: 8%;
+}
+
+.replay_con .con .RB_sicbo .open_card-show dd.blue {
+  background: linear-gradient(0deg, #043048 0%, #2578ce 100%);
+  border: 1px #052442 solid;
+}
+
+.replay_con .con .RB_sicbo .open_card-show dd::after {
+  width: 100%;
+  height: 100%;
+  background-size: 50% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.replay_con .con .RB_sicbo .open_card-show:last-of-type dd {
+  left: auto;
+  right: 5.24738vmax;
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-1::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-1_white.svg);
+  background-size: 20% auto;
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-2::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-2_white.svg);
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-3::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-3_white.svg);
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-4::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-4_white.svg);
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-5::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-5_white.svg);
+}
+
+.replay_con .con .RB_sicbo .open_card-show .dice-6::after {
+  background-image: url(../../images/baccarat-mobile/icon_dice-6_white.svg);
+}
+
+.replay_con .con .RB_sicbo h5 {
+  position: absolute;
+  bottom: 1.1994vmax;
+  display: block;
+  min-width: 37.48126vmax;
+  padding: 0.74963vmax;
+  border-radius: 0.74963vmax;
+  border: 1px #231d0f solid;
+  font-weight: normal;
+  background: linear-gradient(0deg, #4a3c21 0%, #82744c 99%);
+  font-size: 2.09895vmax;
+}
+
+.replay_con .con .RB_sicbo h5 span {
+  display: block;
+  font-size: 1.64918vmax;
+  margin-top: 0.29985vmax;
+  color: #a59981;
+}
+
+.replay_con .con .nouse_zone {
+  display: flex;
+  align-items: center;
+  top: 42%;
+  width: 43.47826vmax;
+  padding: 1.04948vmax;
+}
+
+.replay_con .con .open_card-win.result_win.red, .replay_con .con .RB_sicbo .open_card-show dd.open_card-win.result_win.blue {
+  left: auto;
+  right: 35.98201vmax;
+}
+
+.replay_con .con .open_card-win.result_win.blue {
+  right: 2.24888vmax;
+}
+
+.maintenance_table_con, .maintenance_system_con {
+  background: url(../../images/baccarat-mobile/maintenance_bg.png) calc(100% - 2.9985vmax) bottom #212121 no-repeat;
+  background-size: auto 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 3.74813vmax;
+  padding-right: 43.47826vmax;
+}
+
+.maintenance_table_con p, .maintenance_system_con p {
+  font-size: 4.1979vmax;
+  margin-bottom: 2.24888vmax;
+  color: #F2E2AC;
+}
+
+.maintenance_table_con a, .maintenance_system_con a {
+  padding: 1.1994vmax 1.1994vmax 1.1994vmax 1.1994vmax;
+  color: #E4D5A7;
+  font-size: 2.09895vmax;
+}
+
+.maintenance_table_con a::after, .maintenance_system_con a::after {
+  width: 2.54873vmax;
+  height: 2.24888vmax;
+  background-image: url('data:image/svg+xml,<svg width="19" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M11.712 2.903H4.925l.805-.78a1.215 1.215 0 0 0 0-1.759 1.318 1.318 0 0 0-1.819 0l-3 2.902-.911.88.91.88 3.215 3.11c.252.243.58.364.91.364.33 0 .658-.121.91-.364a1.215 1.215 0 0 0 0-1.76l-1.02-.985h6.787c2.6 0 4.716 2.046 4.716 4.56 0 2.515-2.116 4.561-4.716 4.561H1.82c-.71 0-1.286.557-1.286 1.244 0 .687.575 1.244 1.286 1.244h9.892C15.73 17 19 13.838 19 9.952c0-3.887-3.27-7.05-7.288-7.05z" fill="rgb(255, 240, 187)" fill-rule="nonzero"/></svg>');
+  background-size: 100% 100%;
+  margin-right: 1.1994vmax;
+}
+
+.maintenance_system_con {
+  height: 100%;
+  top: 0;
+}
+
+.external_mode .setting_con {
+  height: inherit;
+}
+
+.external_mode .first_setting_con {
+  height: 100%;
+}
+
+.demo_mask {
+  top: auto;
+  right: auto;
+  left: 0vmax;
+  bottom: 0vmax;
+  max-width: inherit;
+  width: 100%;
+  border-radius: 0;
+  color: #c7b887;
+  text-align: center;
+  background: rgba(33, 31, 27, 0.8);
+  z-index: 50;
+}
+
+.long_stop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/share_source/long_stop_bg.png), linear-gradient(60deg, #000000 0%, #4e4c41 100%);
+  background-size: auto 98%, 100% 100%;
+  background-position: calc(100% - 5.24738vmax) bottom, top left;
+  background-repeat: no-repeat;
+}
+
+.long_stop h4 {
+  width: calc(100% - 37.48126vmax);
+  margin-left: 4.49775vmax;
+  margin-bottom: 1.49925vmax;
+  line-height: 4.1979vmax;
+  font-size: 2.9985vmax;
+  font-weight: normal;
+}
+
+.long_stop p {
+  width: calc(100% - 37.48126vmax);
+  margin-left: 4.49775vmax;
+  line-height: 4.1979vmax;
+  font-size: 2.09895vmax;
+}
+
+.long_stop a {
+  display: inline-block;
+  padding: 0 1.49925vmax;
+  color: #efead2;
+}
+
+.long_stop a::after {
+  display: none;
+}
+
+.long_stop a::before {
+  display: inline-block;
+  background-size: 100% 100%;
+  margin-right: 0.74963vmax;
+}
+
+.long_stop a.back_game::before {
+  width: 1.7991vmax;
+  height: 1.64918vmax;
+  background-image: url('data:image/svg+xml,<svg width="19" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M11.712 2.903H4.925l.805-.78a1.215 1.215 0 0 0 0-1.759 1.318 1.318 0 0 0-1.819 0l-3 2.902-.911.88.91.88 3.215 3.11c.252.243.58.364.91.364.33 0 .658-.121.91-.364a1.215 1.215 0 0 0 0-1.76l-1.02-.985h6.787c2.6 0 4.716 2.046 4.716 4.56 0 2.515-2.116 4.561-4.716 4.561H1.82c-.71 0-1.286.557-1.286 1.244 0 .687.575 1.244 1.286 1.244h9.892C15.73 17 19 13.838 19 9.952c0-3.887-3.27-7.05-7.288-7.05z" fill="rgb(255, 240, 187)" fill-rule="nonzero"/></svg>');
+}
+
+.long_stop a.back_home::before {
+  width: 1.7991vmax;
+  height: 1.64918vmax;
+  background-image: url('data:image/svg+xml,<svg width="15" height="13" xmlns="http://www.w3.org/2000/svg"><path d="M7.82 1.488L2.987 6.332l4.833 4.844-1.488 1.488L0 6.332 6.332 0 7.82 1.488zm7 0L9.987 6.332l4.833 4.844-1.488 1.488L7 6.332 13.332 0l1.488 1.488z" fill="rgb(255, 240, 187)" fill-rule="evenodd"/></svg>');
+}
+
+.venus .long_stop {
+  background: url(../../images/share_source/long_stop_bg2.png), linear-gradient(60deg, #000000 0%, #4e4c41 100%);
+  background-size: auto 120%, 100% 100%;
+  background-position: calc(100% - 5.24738vmax) 0vmax, top left;
+  background-repeat: no-repeat;
+}
+
+.trans_con .trans_list th + td.tie_super {
+  color: #e6a100;
+  text-align: center;
+}
+
+.guide_con tbody tr td.tie_super, .guide_con_full tbody tr td.tie_super {
+  color: #e6a100;
+}
+
+/*----------------------------portrait----------------------------------*/
+/*----------------------------portrait----------------------------------*/
+@media screen and (orientation: portrait) {
+  .setting_con {
+    height: 100%;
+    padding: 4vw;
+    flex-direction: column;
+  }
+  .chips_con {
+    width: 84vw;
+    margin-bottom: 1.33333vw;
+    margin-top: 2.66667vw;
+  }
+  .chips_con h4 {
+    font-size: 4vw;
+    margin-bottom: 2.66667vw;
+    padding: 0 2.66667vw;
+  }
+  .chips_con li {
+    width: 19.2vw;
+    height: 19.2vw;
+  }
+  .chips_con li.select span {
+    border: 0.53333vw #FFCE00 solid;
+  }
+  .chips_con li span {
+    width: 18.93333vw;
+    height: 18.93333vw;
+  }
+  .chips_con li p {
+    width: 16.8vw;
+    height: 16.8vw;
+    font-size: 5.33333vw;
+  }
+  .chips_con li .lot_word {
+    font-size: 4vw;
+  }
+  .chips_con li.user_unselect span {
+    width: 17.06667vw;
+    height: 17.06667vw;
+  }
+  .chips_con li.user_unselect p {
+    font-size: 3.2vw;
+  }
+  .user_setting_con {
+    height: initial;
+  }
+  .user_setting_con h5 {
+    font-size: 3.46667vw;
+    line-height: 5.33333vw;
+    margin-bottom: 3.46667vw;
+  }
+  .user_setting_con.wrong_set h5::before {
+    width: 8vw;
+    height: 8vw;
+    margin: 0 auto 2.66667vw auto;
+  }
+  .user_setting_con .user_set.select .user_chip {
+    border: 0.53333vw #FFCE00 solid;
+  }
+  .user_setting_con dl dt {
+    margin-right: 1.33333vw;
+    padding: 1.33333vw 0;
+  }
+  .user_setting_con dl dt input {
+    width: 22.66667vw;
+    height: 10.66667vw;
+    font-size: 6.13333vw;
+  }
+  .user_setting_con dl dd {
+    font-size: 8vw;
+  }
+  .user_setting_con dl dd span {
+    font-size: 4.26667vw;
+  }
+  .user_setting_con dl dd p {
+    font-size: 2.93333vw;
+  }
+  .user_setting_con .user_chip {
+    width: 18.93333vw;
+    height: 18.93333vw;
+    margin: -2.66667vw 0 0 2.66667vw;
+  }
+  .user_setting_con .user_chip p {
+    width: 16.8vw;
+    height: 16.8vw;
+    font-size: 5.33333vw;
+  }
+  .user_setting_con .user_chip.lot_word p {
+    font-size: 4.26667vw;
+  }
+  .user_setting_con.popup_type .inside {
+    padding: 4vw;
+  }
+  .keyboard {
+    margin: 2.66667vw auto 2.66667vw 0;
+  }
+  .keyboard ol, .keyboard .guide_con ul, .guide_con .keyboard ul, .keyboard .guide_con_full ul, .guide_con_full .keyboard ul {
+    width: 56vw;
+  }
+  .keyboard ol li, .keyboard .guide_con ul li, .guide_con .keyboard ul li, .keyboard .guide_con_full ul li, .guide_con_full .keyboard ul li {
+    height: 10.66667vw;
+    margin: 0 0.53333vw 0.53333vw 0;
+    font-size: 6.66667vw;
+  }
+  .keyboard ol:last-child, .keyboard .guide_con ul:last-child, .guide_con .keyboard ul:last-child, .keyboard .guide_con_full ul:last-child, .guide_con_full .keyboard ul:last-child {
+    width: 16vw;
+  }
+  .keyboard ol:last-child li:first-child, .keyboard .guide_con ul:last-child li:first-child, .guide_con .keyboard ul:last-child li:first-child, .keyboard .guide_con_full ul:last-child li:first-child, .guide_con_full .keyboard ul:last-child li:first-child {
+    font-size: 4.8vw;
+  }
+  .keyboard ol:last-child li:last-child, .keyboard .guide_con ul:last-child li:last-child, .guide_con .keyboard ul:last-child li:last-child, .keyboard .guide_con_full ul:last-child li:last-child, .guide_con_full .keyboard ul:last-child li:last-child {
+    height: 21.86667vw;
+  }
+  .btn_con {
+    padding: 0 4vw;
+  }
+  .btn_con .btn_bet_cancel, .btn_con .btn_bet_confirm, .btn_con .btn_bet_cancel, .btn_con .btn_bet_rebet {
+    width: 32vw;
+    height: 10.13333vw;
+    font-size: 4.53333vw;
+  }
+  .first_setting_con {
+    flex-direction: column;
+  }
+  .first_setting_con h5 {
+    font-size: 3.46667vw;
+    margin-bottom: 4vw;
+  }
+  .first_setting_con .chips_con {
+    width: 80vw;
+  }
+  .first_setting_con .chips_con h4 {
+    font-size: 5.6vw;
+    margin-bottom: 1.33333vw;
+  }
+  .first_setting_con .chips_con h5 {
+    padding: 0 2.66667vw;
+  }
+  .first_setting_con .user_setting_con {
+    margin-top: 2.66667vw;
+  }
+  .first_setting_con .user_setting_con .limit_list li, .first_setting_con .user_setting_con .guide_con .page_tag li, .guide_con .first_setting_con .user_setting_con .page_tag li, .first_setting_con .user_setting_con .guide_con_full .page_tag li, .guide_con_full .first_setting_con .user_setting_con .page_tag li {
+    padding: 2.13333vw 1.33333vw;
+  }
+  .first_setting_con .user_setting_con .limit_list span, .first_setting_con .user_setting_con .guide_con .page_tag span, .guide_con .first_setting_con .user_setting_con .page_tag span, .first_setting_con .user_setting_con .guide_con_full .page_tag span, .guide_con_full .first_setting_con .user_setting_con .page_tag span {
+    font-size: 2.93333vw;
+  }
+  .first_setting_con .user_setting_con .btn_con {
+    padding: 0 0.53333vw;
+  }
+  .guide_con, .guide_con_full {
+    height: calc(100% - 8vw);
+    /* padding: 4vw; */
+  }
+  .guide_con h4, .guide_con_full h4 {
+    font-size: 5.6vw;
+    margin-bottom: 4vw;
+  }
+  .guide_con h4 a, .guide_con_full h4 a {
+    width: 6.66667vw;
+    height: 6.66667vw;
+  }
+  .guide_con h4 a::after, .guide_con_full h4 a::after {
+    width: 4.53333vw;
+    height: 4.53333vw;
+  }
+  .guide_con .page_tag, .guide_con_full .page_tag {
+    width: 100%;
+    height: auto;
+    float: none;
+    padding: 0;
+    margin-bottom: 2.66667vw;
+  }
+  .guide_con .page_tag:after, .guide_con_full .page_tag:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .guide_con .page_tag li, .guide_con_full .page_tag li {
+    width: auto;
+    float: left;
+    font-size: 3.2vw;
+    padding: 2.13333vw 1.33333vw;
+  }
+  .guide_con .main_con, .guide_con_full .main_con {
+    width: 100%;
+    height: calc(100% - 17.33333vw);
+    padding-left: 0;
+    font-size: 3.2vw;
+    line-height: 5.33333vw;
+    float: none;
+  }
+  .guide_con p, .guide_con_full p {
+    font-size: 3.2vw;
+    margin-bottom: 8vw;
+  }
+  .guide_con p.with_photo img, .guide_con_full p.with_photo img {
+    margin: 0 4vw 0 0;
+  }
+  .guide_con h3, .guide_con_full h3 {
+    font-size: 4.53333vw;
+    margin-bottom: 2.66667vw;
+  }
+  .guide_con h4, .guide_con_full h4 {
+    font-size: 3.73333vw;
+    margin-bottom: 2.66667vw;
+  }
+  .guide_con img, .guide_con_full img {
+    margin-bottom: 5.33333vw;
+  }
+  .guide_con ol, .guide_con_full ol, .guide_con ul, .guide_con_full ul {
+    padding-left: 5.33333vw;
+    margin-bottom: 8vw;
+  }
+  .guide_con ol li, .guide_con_full ol li, .guide_con ul li, .guide_con_full ul li {
+    margin-bottom: 2.13333vw;
+  }
+  .guide_con ol table, .guide_con_full ol table, .guide_con ul table, .guide_con_full ul table {
+    margin-top: 4vw;
+  }
+  .guide_con ul, .guide_con_full ul {
+    margin-bottom: 4vw;
+  }
+  .guide_con table, .guide_con_full table {
+    margin-bottom: 5.33333vw;
+  }
+  .guide_con table.road_table, .guide_con_full table.road_table {
+    margin-top: 5.33333vw;
+  }
+  .guide_con table.road_table th, .guide_con_full table.road_table th {
+    width: 7.2vw;
+  }
+  .guide_con table.road_table td, .guide_con_full table.road_table td {
+    padding: 1.33333vw;
+  }
+  .guide_con td, .guide_con_full td {
+    padding: 1.86667vw 1.33333vw;
+  }
+  .guide_con dl, .guide_con_full dl {
+    margin-bottom: 5.33333vw;
+  }
+  .guide_con dl dt, .guide_con_full dl dt {
+    font-size: 3.2vw;
+  }
+  .guide_con dl dd, .guide_con_full dl dd {
+    width: 32vw;
+    margin-left: 2.66667vw;
+  }
+  .guide_con .teenpatti_card, .guide_con_full .teenpatti_card {
+    padding-bottom: 2.66667vw;
+    margin-bottom: 4vw;
+  }
+  .guide_con .teenpatti_card ul, .guide_con_full .teenpatti_card ul {
+    width: 21.33333vw;
+    height: 17.33333vw;
+    margin: 1.33333vw 0 0 0;
+  }
+  .guide_con .teenpatti_card li div, .guide_con_full .teenpatti_card li div {
+    width: 8.53333vw;
+    height: 13.86667vw;
+  }
+  .guide_con .teenpatti_card li div span, .guide_con_full .teenpatti_card li div span {
+    line-height: 8.53333vw;
+    font-size: 5.86667vw;
+    padding-left: 1.06667vw;
+  }
+  .guide_con .teenpatti_card li div:after, .guide_con_full .teenpatti_card li div:after {
+    left: 0.53333vw;
+    bottom: 1.6vw;
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+  .guide_con .teenpatti_card li:nth-child(1n), .guide_con_full .teenpatti_card li:nth-child(1n) {
+    left: 1.33333vw;
+    top: 0vw;
+  }
+  .guide_con .teenpatti_card li:nth-child(2n), .guide_con_full .teenpatti_card li:nth-child(2n) {
+    left: 6.66667vw;
+    top: 0.53333vw;
+  }
+  .guide_con .teenpatti_card li:nth-child(3n), .guide_con_full .teenpatti_card li:nth-child(3n) {
+    left: 12vw;
+    top: 1.06667vw;
+  }
+  .guide_con .teenpatti_card .line, .guide_con_full .teenpatti_card .line {
+    height: 0.53333vw;
+    margin: 0 1.33333vw 1.33333vw 1.33333vw;
+  }
+  .guide_con_full {
+    height: 100%;
+    padding: 1.49925vmax;
+  }
+  .guide_con_full .main_con {
+    width: 100%;
+    height: 100%;
+    padding-top: 5.33333vw;
+  }
+  .trans_con {
+    /* padding: 2.13333vw; */
+  }
+  .trans_con h4 {
+    font-size: 3.73333vw;
+    margin-bottom: 2.66667vw;
+    padding: 1.33333vw 0;
+  }
+  .trans_con h4 a {
+    width: 6.66667vw;
+    height: 6.66667vw;
+    right: 2.66667vw;
+  }
+  .trans_con h4 a::after {
+    width: 4.53333vw;
+    height: 4.53333vw;
+  }
+  .trans_con .search_date {
+    margin-bottom: 0.8vw;
+  }
+  .trans_con .search_date input {
+    height: 8.8vw;
+    margin-bottom: 1.33333vw;
+    margin-right: 0.53333vw;
+    font-size: 3.2vw;
+  }
+  .trans_con .search_date .search input {
+    padding: 0 2.13333vw;
+    font-size: 3.46667vw;
+  }
+  .trans_con .search_date .search p {
+    width: 8vw;
+    height: 8.8vw;
+    margin-right: 1.33333vw;
+  }
+  .trans_con .search_date .search p::after {
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+  .trans_con .game_list {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 0.53333vw;
+    flex-direction: row;
+  }
+  .trans_con .game_list li {
+    display: flex;
+    justify-content: center;
+    height: 10.66667vw;
+    flex: 1;
+    font-size: 3.2vw;
+    border-radius: 0.8vw;
+    margin-right: 0.53333vw;
+    padding: 0 1.33333vw;
+    text-align: center;
+  }
+  .trans_con .game_list .game_list_layer2 {
+    display: none;
+  }
+  .trans_con .scroll {
+    display: none;
+  }
+  .trans_con .game_list_layer2 {
+    display: flex;
+    width: 100%;
+    border: 1px #444033 solid;
+    border-radius: 0.44978vmax;
+    background: linear-gradient(0deg, #38352b 0%, #000000 100%);
+    margin-bottom: 1.33333vw;
+  }
+  .trans_con .game_list_layer2 li {
+    flex: auto;
+    font-size: 3.2vw;
+    padding: 2.13333vw 1.33333vw;
+    text-align: center;
+    border-right: 1px #403c32 solid;
+  }
+  .trans_con .game_list_layer2 li:last-child {
+    border-right: none;
+  }
+  .trans_con .game_list_layer2 li.now {
+    background-image: linear-gradient(0deg, #d2b659 0%, #715525 100%);
+    box-shadow: inset 0 0px 1px 1px rgba(0, 0, 0, 0.8);
+    color: #f8edcf;
+  }
+  .trans_con .trans_main_con {
+    width: 100%;
+    height: calc(100% - 42.66667vw);
+  }
+  .trans_con .trans_main_con.portrait_layer2 {
+    height: calc(100% - 52.26667vw);
+  }
+  .trans_con .trans_main_con p {
+    font-size: 3.46667vw;
+    padding: 2.66667vw 2.13333vw;
+    color:#F3E5B9;
+  }
+  .trans_con .trans_main_con p i {
+    margin-right: 4vw;
+  }
+  .trans_con .trans_main_con p i span {
+    padding-left: 2.66667vw;
+  }
+  .trans_con .trans_main_con p::before {
+    border-width: 1.33333vw 1.33333vw 0 1.33333vw;
+    margin-top: 0.8vw;
+  }
+  .trans_con .trans_main_con p.open::before {
+    border-width: 0 1.33333vw 1.33333vw 1.33333vw;
+  }
+  .trans_con .trans_list th {
+    font-size: 4vw;
+    padding: 2.13333vw 2.13333vw 2.13333vw 2.4vw;
+  }
+  .trans_con .trans_list th span strong {
+    padding: 0 0 0 1.33333vw;
+  }
+  .trans_con .trans_list th.no {
+    display: table-cell;
+    width: 1px;
+    font-size: 0px;
+    padding: 0px;
+    text-indent: -9999px;
+  }
+  .trans_con .trans_list th.no span {
+    display: none;
+  }
+  .trans_con .trans_list td {
+    font-size: 3.46667vw;
+    padding: 1.86667vw 0.8vw;
+  }
+  .trans_con .trans_list td.more::after, .trans_con .trans_list td.open::after {
+    border-width: 1.33333vw 1.33333vw 0 1.33333vw;
+    top: calc(50% - 0.53333vw);
+    margin: 0 1.06667vw 0 0.53333vw;
+  }
+  .trans_con .trans_list td.open::after {
+    border-width: 0 1.33333vw 1.33333vw 1.33333vw;
+  }
+  .trans_con .trans_list td.no {
+    display: table-cell;
+    padding: 0.8vw 1.86667vw;
+    font-size: 2.93333vw;
+  }
+  .trans_con .trans_list td.no span {
+    font-weight: bold;
+    padding-right: 2.66667vw;
+  }
+  .trans_con .trans_list td i {
+    font-size: 2.66667vw;
+  }
+  .trans_con .trans_list .list_total th, .trans_con .trans_list .list_info th {
+    border-bottom: none;
+  }
+  .trans_con .trans_list .list_total td, .trans_con .trans_list .list_info td {
+    border-bottom: 2.13333vw #191919 solid;
+  }
+  .trans_con .trans_list .list_total td:first-child, .trans_con .trans_list .list_info td:first-child {
+    padding-left: 2.13333vw;
+  }
+  .trans_con .trans_list .list_total td:last-child, .trans_con .trans_list .list_info td:last-child {
+    padding-right: 7.73333vw;
+  }
+  .trans_con .trans_list .list_info td {
+    padding: 1.33333vw 0 1.33333vw 2.66667vw;
+    border-bottom-width: 1px;
+  }
+  .trans_con .trans_list .list_info span {
+    padding-left: 0.8vw;
+  }
+  .trans_con .trans_list .list_info .replay {
+    padding-right: 7.73333vw;
+    background-position: calc(100% - 1.6vw) center, 0 0;
+  }
+  .trans_con .trans_list .list_info .sicbo_zone, .trans_con .trans_list .list_info .fish_prawn_crab, .trans_con .trans_list .list_info .rb_sicbo_zone, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab_zone, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab_zone {
+    margin: 0 0 0 1.86667vw;
+  }
+  .trans_con .trans_list .list_info .sicbo_zone li, .trans_con .trans_list .list_info .fish_prawn_crab li, .trans_con .trans_list .list_info .rb_sicbo_zone li, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab_zone li, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab_zone li {
+    width: 6.66667vw;
+    height: 6.66667vw;
+    border-radius: 1.33333vw;
+    margin: 0 0.26667vw 0 0;
+  }
+  .trans_con .trans_list .layer2 td {
+    background-color: #e0ded6;
+    border: none;
+  }
+  .trans_con .trans_list .layer2 td.no {
+    background: linear-gradient(0deg, #d6d5d0 93%, #676767 100%);
+    border: none;
+  }
+  .trans_con .trans_list .layer2 th.no {
+    background: #d6d5d0;
+    border: none;
+  }
+  .trans_con .trans_list .layer3 td.no {
+    background: #b7b0a1;
+    border: none;
+  }
+  .trans_con .trans_list .layer3 th {
+    background: bbb7ae;
+  }
+  .trans_con .trans_list .layer3 th.no {
+    background: #b7b0a1;
+    border: none;
+  }
+  .trans_con .trans_list .list_title td, .trans_con .trans_list .list_title th {
+    font-size: 3.46667vw;
+  }
+  .trans_con .trans_list .list_title th {
+    display: table-cell;
+    width: 1px;
+    font-size: 0px;
+    padding: 0px;
+    text-indent: -9999px;
+  }
+  .trans_con .trans_list .roulette_result {
+    margin-top: 0.8vw;
+  }
+  .trans_con .trans_list .roulette_result dt {
+    width: 16vw;
+    height: 6.13333vw;
+    border-radius: 0.53333vw;
+    float: none;
+  }
+  .trans_con .trans_list .roulette_result dd {
+    margin-top: 0.8vw;
+    margin-left: 0.8vw;
+    float: none;
+  }
+  .trans_con .trans_list .roulette_result dd span {
+    padding-right: 1.33333vw;
+    margin-right: 1.33333vw;
+    margin-bottom: 0.53333vw;
+  }
+  .trans_con .trans_list .roulette_result dd span::after {
+    width: 0.26667vw;
+  }
+  .replay_con {
+    padding: 2.13333vw;
+  }
+  .replay_con h4 {
+    font-size: 3.73333vw;
+    margin-bottom: 2.66667vw;
+    padding: 1.33333vw 0;
+  }
+  .replay_con h4 a {
+    width: 6.66667vw;
+    height: 6.66667vw;
+    right: 2.66667vw;
+  }
+  .replay_con h4 a::after {
+    width: 4.53333vw;
+    height: 4.53333vw;
+  }
+  .replay_con .con {
+    height: calc(100% - 7.46667vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .replay_con .con h6 {
+    width: 90.66667vw;
+    font-size: 3.2vw;
+    margin-bottom: 2.13333vw;
+  }
+  .replay_con .con .video_box {
+    width: 90.66667vw;
+    height: 69.33333vw;
+  }
+  .replay_con .con .video_box .sk-folding-cube p {
+    padding-top: 0;
+    font-size: 2.93333vw;
+  }
+  .replay_con .con .video_box.RB_sicbo {
+    height: 56vw;
+  }
+  .replay_con .con .result {
+    width: 90.66667vw;
+    height: 69.33333vw;
+  }
+  .replay_con .con .sicbo_zone, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone, .replay_con .con .fish_prawn_crab_zone {
+    width: 100%;
+    padding: 1.86667vw;
+    top: auto;
+    transform: none;
+    margin-top: 4vw;
+  }
+  .replay_con .con .sicbo_zone dt, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dt, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dt, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dt, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dt, .replay_con .con .fish_prawn_crab_zone dt {
+    font-size: 4vw;
+  }
+  .replay_con .con .sicbo_zone dd, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dd, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dd, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dd, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dd, .replay_con .con .fish_prawn_crab_zone dd {
+    padding-top: 1.33333vw;
+    font-size: 10.66667vw;
+  }
+  .replay_con .con .sicbo_zone dd span, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab dd span, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab dd span, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone dd span, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone dd span, .replay_con .con .fish_prawn_crab_zone dd span {
+    display: inline-block;
+    font-size: 6.13333vw;
+    color: #c1af7d;
+  }
+  .replay_con .con .sicbo_zone li, .replay_con .con .trans_con .trans_list .list_info .fish_prawn_crab li, .trans_con .trans_list .list_info .replay_con .con .fish_prawn_crab li, .replay_con .con .trans_con .trans_list .list_info .rb_sicbo_zone li, .trans_con .trans_list .list_info .replay_con .con .rb_sicbo_zone li, .replay_con .con .fish_prawn_crab_zone li {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 2.66667vw;
+    margin: 0 0.8vw;
+  }
+  .replay_con .con .roulette_zone {
+    width: 100%;
+    padding: 1.86667vw;
+    top: auto;
+    transform: none;
+    margin-top: 4vw;
+  }
+  .replay_con .con .roulette_zone dl {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .replay_con .con .roulette_zone dt {
+    width: 16vw;
+    height: 16vw;
+    border-radius: 1.33333vw;
+    margin-bottom: 2.66667vw;
+    font-size: 8vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .replay_con .con .roulette_zone dd {
+    width: 100%;
+    font-size: 3.73333vw;
+    text-align: center;
+  }
+  .replay_con .con .roulette_zone dd span {
+    display: inline-block;
+    margin-right: 2.13333vw;
+    margin-bottom: 1.33333vw;
+    padding-right: 2.13333vw;
+  }
+  .replay_con .con .roulette_zone dd span:last-child {
+    margin-right: 0;
+  }
+  .replay_con .con .RB_sicbo .open_card-show dd {
+    top: 32vw;
+    left: 9.33333vw;
+  }
+  .replay_con .con .RB_sicbo .open_card-show dd.red, .replay_con .con .RB_sicbo .open_card-show dd.blue {
+    width: 21.33333vw;
+    height: 21.33333vw;
+  }
+  .replay_con .con .RB_sicbo .open_card-show:last-of-type dd {
+    right: 9.33333vw;
+  }
+  .replay_con .con h5 {
+    bottom: 2.13333vw;
+    min-width: 66.66667vw;
+    padding: 1.33333vw;
+    border-radius: 1.33333vw;
+    font-size: 3.73333vw;
+  }
+  .replay_con .con h5 span {
+    font-size: 2.93333vw;
+    margin-top: 0.53333vw;
+  }
+  .replay_con .con .nouse_zone {
+    top: auto;
+    transform: none;
+    width: 77.33333vw;
+    padding: 1.86667vw;
+  }
+  .replay_con .con .open_card-win.result_win.red, .replay_con .con .RB_sicbo .open_card-show dd.open_card-win.result_win.blue {
+    right: 74.66667vw;
+  }
+  .replay_con .con .open_card-win.result_win.blue {
+    left: auto;
+    right: 4vw;
+  }
+  .replay_con .con .open_card-win.RB_sicbo {
+    top: 85.33333vw;
+  }
+  .maintenance_table_con, .maintenance_system_con {
+    background: url(../../images/baccarat-mobile/maintenance_bg.png) center bottom #212121 no-repeat;
+    background-size: 70% auto;
+    display: block;
+    padding: 21.33333vw 2.66667vw 0 2.66667vw;
+  }
+  .maintenance_table_con p, .maintenance_system_con p {
+    font-size: 7.46667vw;
+    margin-bottom: 4vw;
+    text-align: center;
+  }
+  .maintenance_table_con a, .maintenance_system_con a {
+    display: block;
+    width: max-content;
+    padding: 2.13333vw 2.13333vw 2.13333vw 2.13333vw;
+    font-size: 3.73333vw;
+    margin: 0 auto;
+  }
+  .maintenance_table_con a::after, .maintenance_system_con a::after {
+    width: 4.53333vw;
+    height: 4vw;
+    margin-right: 2.13333vw;
+  }
+  .maintenance_system_con {
+    height: 100%;
+    top: 0;
+  }
+  .external_mode .first_setting_con {
+    top: 0;
+    height: inherit;
+  }
+  .external_mode .chips_con {
+    margin-top: 0;
+  }
+  .demo_mask {
+    left: 0vw;
+    bottom: 0vw;
+  }
+  .long_stop {
+    background-size: auto 65%, 100% 100%;
+    background-position: center bottom, top left;
+  }
+  .long_stop h4 {
+    top: auto;
+    transform: none;
+    width: calc(100% - 5.33333vw);
+    margin: 40vw auto 2.66667vw auto;
+    line-height: 7.46667vw;
+    text-align: center;
+    font-size: 5.33333vw;
+  }
+  .long_stop p {
+    width: calc(100% - 13.33333vw);
+    margin-left: 8vw;
+    line-height: 7.46667vw;
+    font-size: 3.73333vw;
+    text-align: center;
+    top: auto;
+    transform: none;
+    margin: 1.33333vw auto 0 auto;
+  }
+  .long_stop a {
+    padding: 0 2.66667vw;
+  }
+  .long_stop::before {
+    margin-right: 1.33333vw;
+  }
+  .long_stop.back_game::before {
+    width: 3.2vw;
+    height: 2.93333vw;
+  }
+  .long_stop.back_home::before {
+    width: 3.2vw;
+    height: 2.93333vw;
+  }
+  .venus .long_stop {
+    background-size: auto 68%, 100% 100%;
+    background-position: center bottom, top left;
+  }
+  .popup_check_btn_off, .popup_check_btn_on {
+    width: 85.33333vw;
+    font-size: 3.2vw;
+    margin: 0vw 0 2.13333vw 0;
+    padding: 1.6vw 1.6vw 1.6vw 7.46667vw;
+    border-radius: 0.53333vw;
+  }
+  .popup_check_btn_off::before, .popup_check_btn_on::before {
+    width: 4.26667vw;
+    height: 4.26667vw;
+    border-radius: 0.53333vw;
+    left: 1.33333vw;
+  }
+  .popup_check_btn_off span, .popup_check_btn_on span {
+    width: 10.66667vw;
+    height: 7.46667vw;
+  }
+  .popup_check_btn_off h6, .popup_check_btn_on h6 {
+    bottom: 8vw;
+    width: 66.66667vw;
+    padding: 3.2vw 8vw 3.2vw 2.66667vw;
+    font-size: 3.2vw;
+    line-height: 4.26667vw;
+  }
+  .popup_check_btn_off h6::before, .popup_check_btn_on h6::before {
+    right: 3.46667vw;
+    top: 3.46667vw;
+    width: 3.73333vw;
+    height: 3.73333vw;
+  }
+  .limit_list, .guide_con .page_tag, .guide_con_full .page_tag {
+    width: 85.33333vw;
+    margin-top: 1.33333vw;
+    margin-bottom: 1.33333vw;
+  }
+  .limit_list li, .guide_con .page_tag li, .guide_con_full .page_tag li {
+    padding: 2.13333vw 1.33333vw;
+    font-size: 3.2vw;
+    border-radius: 0.8vw;
+    margin: 0 0.8vw 1.33333vw 0;
+  }
+  .limit_list li span, .guide_con .page_tag li span, .guide_con_full .page_tag li span {
+    display: block;
+    font-size: 2.93333vw;
+  }
+}
